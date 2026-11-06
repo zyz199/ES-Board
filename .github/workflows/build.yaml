@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
@@ -28,15 +28,18 @@ jobs:
         run: choco install 7zip
 
       - name: GoLang
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           check-latest: true
           go-version: ${{ env.GO_VERSION }}
 
       - name: NodeJS
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
 
       - name: Build & Compress
         run: |
@@ -49,7 +52,7 @@ jobs:
           & "C:\Program Files\7-Zip\7z.exe" a -t7z "${{ env.APP_NAME }}-${{ github.ref_name }}-windows-x64.7z" ".\app\build\bin\*" -r
           
       - name: Upload Release Asset
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: "*.7z"
         env:
@@ -63,20 +66,23 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
       - name: GoLang
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           check-latest: true
           go-version: ${{ env.GO_VERSION }}
 
       - name: NodeJS
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
 
       - name: Build & Compress
         shell: bash
@@ -102,7 +108,7 @@ jobs:
             "_build/"
 
       - name: Upload Release Assets
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: ${{ env.APP_WORKING_DIRECTORY }}/_dist/*
           fail_on_unmatched_files: true
@@ -117,20 +123,23 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           submodules: recursive
 
       - name: GoLang
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           check-latest: true
           go-version: ${{ env.GO_VERSION }}
 
       - name: NodeJS
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
 
       - name: Build & Compress
         run: |
@@ -150,7 +159,7 @@ jobs:
           mv ${{ env.APP_NAME }}-${{ github.ref_name }}-ubuntu-$ARCH.tar.gz ..
 
       - name: Upload Release Assets
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: "*.tar.gz"
           fail_on_unmatched_files: true
