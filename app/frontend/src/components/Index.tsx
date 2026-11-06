@@ -288,7 +288,7 @@ export default function Index() {
   })
 
   // 分页（页码从 0 开始）
-  const pageKey = 'esKing:index:pageKey'
+  const pageKey = 'esBoard:index:pageKey'
   const [paginationModel, setPaginationModel] = useState<PaginationModel>({
     page: 0,
     pageSize: parseInt(localStorage.getItem(pageKey) ?? '') || 10,

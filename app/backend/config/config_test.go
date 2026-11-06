@@ -8,7 +8,7 @@ import (
 )
 
 // newTestConfig 返回使用临时 HOME 目录的 AppConfig，
-// 避免测试读写用户真实的 ~/.es-king 配置
+// 避免测试读写用户真实的 ~/.es-board 配置
 func newTestConfig(t *testing.T) *AppConfig {
 	t.Helper()
 	t.Setenv("HOME", t.TempDir())
@@ -129,7 +129,7 @@ func TestHistorySaveAndLoad(t *testing.T) {
 func TestConfigFileIsolateFromRealHome(t *testing.T) {
 	cfg := newTestConfig(t)
 
-	// 确认写入落在临时 HOME 下的 .es-king 目录，而不是真实用户目录
+	// 确认写入落在临时 HOME 下的 .es-board 目录，而不是真实用户目录
 	saved := &types.Config{Theme: "test-isolated"}
 	if msg := cfg.SaveConfig(saved); msg != "" {
 		t.Fatalf("SaveConfig 应成功: %q", msg)
