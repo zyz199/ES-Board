@@ -40,6 +40,8 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
+        with:
+          package_json_file: app/frontend/package.json
 
       - name: Build & Compress
         run: |
@@ -83,6 +85,8 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
+        with:
+          package_json_file: app/frontend/package.json
 
       - name: Build & Compress
         shell: bash
@@ -140,6 +144,8 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
+        with:
+          package_json_file: app/frontend/package.json
 
       - name: Build & Compress
         run: |
