@@ -2679,6 +2679,17 @@
     ],
     "translation": "插入顺序"
   },
+  "HioCR4": {
+    "translation": "文件格式不正确，请选择 ES-Board 导出的连接配置 JSON 文件",
+    "message": "Invalid file: please select a connections JSON exported from ES-Board",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ]
+  },
   "d+w5zz": {
     "message": "Invalid file: please select a connections JSON exported from ES-King",
     "placeholders": {},
@@ -2688,7 +2699,8 @@
         "src/components/Conn.tsx"
       ]
     ],
-    "translation": "文件格式不正确，请选择 ES-King 导出的连接配置 JSON 文件"
+    "translation": "文件格式不正确，请选择 ES-King 导出的连接配置 JSON 文件",
+    "obsolete": true
   },
   "XDWu5B": {
     "message": "IP",

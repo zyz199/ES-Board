@@ -1,6 +1,6 @@
 {
-  "name": "ES-King",
-  "outputfilename": "ES-King",
+  "name": "ES-Board",
+  "outputfilename": "ES-Board",
   "frontend:install": "pnpm install",
   "frontend:build": "pnpm run build",
   "frontend:dev:watcher": "pnpm run dev",

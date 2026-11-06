@@ -202,13 +202,13 @@ export default function Conn() {
       return item
     })
     const payload = {
-      app: 'ES-King',
-      type: 'es-king-connections',
+      app: 'ES-Board',
+      type: 'es-board-connections',
       version: 1,
       exportedAt: new Date().toISOString(),
       connects,
     }
-    const fileName = `es-king-connections-${new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-')}.json`
+    const fileName = `es-board-connections-${new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-')}.json`
     download_file(JSON.stringify(payload, null, 2), fileName, 'application/json;charset=utf-8;')
     const count = connects.length
     toast.success(t`Exported ${count} connections`)
@@ -240,7 +240,7 @@ export default function Conn() {
       list = null
     }
     if (!list) {
-      toast.error(t`Invalid file: please select a connections JSON exported from ES-King`)
+      toast.error(t`Invalid file: please select a connections JSON exported from ES-Board`)
       return
     }
 

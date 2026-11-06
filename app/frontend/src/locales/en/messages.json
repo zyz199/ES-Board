@@ -2679,6 +2679,17 @@
     ],
     "translation": "Insert Order"
   },
+  "HioCR4": {
+    "translation": "Invalid file: please select a connections JSON exported from ES-Board",
+    "message": "Invalid file: please select a connections JSON exported from ES-Board",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ]
+  },
   "d+w5zz": {
     "message": "Invalid file: please select a connections JSON exported from ES-King",
     "placeholders": {},
@@ -2688,7 +2699,8 @@
         "src/components/Conn.tsx"
       ]
     ],
-    "translation": "Invalid file: please select a connections JSON exported from ES-King"
+    "translation": "Invalid file: please select a connections JSON exported from ES-King",
+    "obsolete": true
   },
   "XDWu5B": {
     "message": "IP",
