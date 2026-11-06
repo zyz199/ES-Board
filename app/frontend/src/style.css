@@ -1,0 +1,72 @@
+/*
+ * Copyright 2025 Bronya0 <tangssst@163.com>.
+ * Author Github: https://github.com/Bronya0
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/*
+ * 注意：这里刻意不设 html/body 的 color。
+ * 旧版（naive-ui 深色主题）曾写 `color: white`——它是未分层样式，优先级永远高于
+ * index.css 里 @layer base 的主题变量，导致 Radix Dialog 等 Portal 到 body、
+ * 自身不带颜色类的组件继承白字，配上浅色背景就成了「空白弹窗」。
+ * 文字颜色统一由 index.css 的 --foreground 主题变量接管。
+ */
+html {
+    background-color: rgba(27, 38, 54, 1);
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+    url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}
+
+#app {
+    height: 100vh;
+    text-align: center;
+}
+
+h2  {
+    text-align: left;
+}
+
+.n-card,
+.n-modal,
+.n-dialog,
+.n-drawer,
+.n-input__textarea-el,
+.n-input__input-el,
+.n-code,
+.n-code *,
+pre,
+code {
+    text-align: left !important;
+}
+
+.n-code pre,
+.n-code code {
+    white-space: pre-wrap !important;
+    word-break: break-all !important;
+    word-wrap: break-word !important;
+}

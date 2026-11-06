@@ -1,0 +1,5747 @@
+{
+  "About": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Apply": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Are you sure you want to delete ILM policy \"{name}\"? Indices using it will no longer be lifecycle-managed.": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Are you sure you want to delete SLM policy \"{name}\"? Existing snapshots won't be deleted.": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Are you sure you want to immediately execute policy \"{name}\" to create a snapshot?": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Check version: {version} {msg}": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Connection failed: {msg}": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Donations keep open source projects alive, thank you!": {
+    "translation": "",
+    "obsolete": true
+  },
+  "ES-King": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Export failed: {msg}": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Favorite Name": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Favorites": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Loading...": {
+    "translation": "",
+    "obsolete": true
+  },
+  "No favorites yet. Click \"Save Favorite\" to keep frequent queries.": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Please enter a name": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Please enter index name": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Please enter number of primary shards": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Please enter number of replicas": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Project Home": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Recommended AI Coding Assistant": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Recommended Kafka Client": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Restore parameters filled, please switch to the Restore tab to confirm and execute": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Save Favorite": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Task": {
+    "translation": "",
+    "obsolete": true
+  },
+  "Tech Group": {
+    "translation": "",
+    "obsolete": true
+  },
+  "XGrAzU": {
+    "message": "[\n  {\"name\": \"Alice\", \"age\": 20},\n  {\"name\": \"Bob\", \"age\": 25}\n]",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "[\n  {\"name\": \"Alice\", \"age\": 20},\n  {\"name\": \"Bob\", \"age\": 25}\n]"
+  },
+  "1gNf9f": {
+    "message": "[This feature is still in testing. Please enter the QQ group number, otherwise download will not work. If you encounter bugs, please report to the group owner.]",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "[This feature is still in testing. Please enter the QQ group number, otherwise download will not work. If you encounter bugs, please report to the group owner.]"
+  },
+  "ftu1Yq": {
+    "message": "{\"tip\": \"Response result, searchable\"}",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ],
+      [
+        "src/components/Rest.tsx"
+      ],
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "{\"tip\": \"Response result, searchable\"}"
+  },
+  "W5GX2f": {
+    "message": "{count} documents ready to import",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "{count} documents ready to import"
+  },
+  "cqv1wD": {
+    "message": "{count} in total",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "{count} in total"
+  },
+  "PYD5ka": {
+    "message": "{count} total",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "{count} total"
+  },
+  "CTU1A0": {
+    "message": "💡 It is recommended to select a specific node. Cluster-wide sampling triggers JVM stack sampling on every node concurrently and may cause temporary CPU spikes in large clusters.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "💡 It is recommended to select a specific node. Cluster-wide sampling triggers JVM stack sampling on every node concurrently and may cause temporary CPU spikes in large clusters."
+  },
+  "KzCUdG": {
+    "message": "💡 To avoid heavy Master node serialization load in huge clusters, all shards are not loaded automatically. Please enter an index name to query, or click 'Query All Shards'.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "💡 To avoid heavy Master node serialization load in huge clusters, all shards are not loaded automatically. Please enter an index name to query, or click 'Query All Shards'."
+  },
+  "EGW54D": {
+    "message": "A more user-friendly ES GUI",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "A more user-friendly ES GUI"
+  },
+  "wdoYIw": {
+    "message": "A RESTful debug tool with formatting/DSL autocomplete/examples/download/history",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "A RESTful debug tool with formatting/DSL autocomplete/examples/download/history"
+  },
+  "19Z6EG": {
+    "message": "About to restore snapshot \"{snap}\" from repository \"{repo}\". The restore operation will create index data in the cluster. Please confirm you understand the impact.",
+    "placeholders": {
+      "snap": [
+        "snap"
+      ],
+      "repo": [
+        "repo"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "About to restore snapshot \"{snap}\" from repository \"{repo}\". The restore operation will create index data in the cluster. Please confirm you understand the impact."
+  },
+  "bwRvnp": {
+    "message": "Action",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Action"
+  },
+  "7L01XJ": {
+    "message": "Actions",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Actions"
+  },
+  "F6pfE9": {
+    "message": "Active",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Active"
+  },
+  "0fOydD": {
+    "message": "Active shards percentage",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Active shards percentage"
+  },
+  "O4u5mO": {
+    "message": "Add Alias",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Add Alias"
+  },
+  "MCH6kA": {
+    "message": "Add Cluster",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Add Cluster"
+  },
+  "wCfv2R": {
+    "message": "Add Connection",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Add Connection"
+  },
+  "VzbrlB": {
+    "message": "Add Document",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Add Document"
+  },
+  "iT7UeX": {
+    "message": "Add Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Add Index"
+  },
+  "ZbGKHi": {
+    "message": "Added {count} connections, updated {updated} with the same name",
+    "placeholders": {
+      "count": [
+        "count"
+      ],
+      "updated": [
+        "updated"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Added {count} connections, updated {updated} with the same name"
+  },
+  "AuKncn": {
+    "message": "Aggregation request",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Aggregation request"
+  },
+  "EbuTi3": {
+    "message": "Alias",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Alias"
+  },
+  "PGLCrR": {
+    "message": "Alias added successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Alias added successfully"
+  },
+  "jhHEXU": {
+    "message": "Alias Management",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Alias Management"
+  },
+  "BDvZoU": {
+    "message": "Alias Parameters (optional, e.g. filter, routing)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Alias Parameters (optional, e.g. filter, routing)"
+  },
+  "Wde9VD": {
+    "message": "Alias parameters are not valid JSON",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Alias parameters are not valid JSON"
+  },
+  "CP64/n": {
+    "message": "Alias removed",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Alias removed"
+  },
+  "QV0Fcd": {
+    "message": "Aliases",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Aliases"
+  },
+  "P7SezZ": {
+    "message": "All Cluster Nodes (Heavy)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "All Cluster Nodes (Heavy)"
+  },
+  "4mHRPy": {
+    "message": "An ILM policy contains phases (hot/warm/cold/delete, etc.) and automatically performs rollover, shrink, delete and other operations on matching indices.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "An ILM policy contains phases (hot/warm/cold/delete, etc.) and automatically performs rollover, shrink, delete and other operations on matching indices."
+  },
+  "dtxpK2": {
+    "message": "Analyze",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Analyze.tsx"
+      ],
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "Analyze"
+  },
+  "UVbQQs": {
+    "message": "Analyzer",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "Analyzer"
+  },
+  "budvfl": {
+    "message": "Are you sure you want to delete document {id}?",
+    "placeholders": {
+      "id": [
+        "id"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to delete document {id}?"
+  },
+  "CcI1oi": {
+    "message": "Are you sure you want to delete documents matching the query in index {index}? Deletion runs asynchronously and is irreversible!",
+    "placeholders": {
+      "index": [
+        "index"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to delete documents matching the query in index {index}? Deletion runs asynchronously and is irreversible!"
+  },
+  "LWVWaK": {
+    "message": "Are you sure you want to delete ILM policy \"{policyId}\"? Indices using it will no longer be lifecycle-managed.",
+    "placeholders": {
+      "policyId": [
+        "policyId"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to delete ILM policy \"{policyId}\"? Indices using it will no longer be lifecycle-managed."
+  },
+  "xVEs+n": {
+    "message": "Are you sure you want to delete index {name}?",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to delete index {name}?"
+  },
+  "dI2Zus": {
+    "message": "Are you sure you want to delete indices {names}?",
+    "placeholders": {
+      "names": [
+        "names"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to delete indices {names}?"
+  },
+  "5UiFJn": {
+    "message": "Are you sure you want to delete SLM policy \"{policyId}\"? Existing snapshots won't be deleted.",
+    "placeholders": {
+      "policyId": [
+        "policyId"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to delete SLM policy \"{policyId}\"? Existing snapshots won't be deleted."
+  },
+  "TdCI4B": {
+    "message": "Are you sure you want to delete snapshot \"{snap}\" from repository \"{repo}\"? This operation is irreversible.",
+    "placeholders": {
+      "snap": [
+        "snap"
+      ],
+      "repo": [
+        "repo"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to delete snapshot \"{snap}\" from repository \"{repo}\"? This operation is irreversible."
+  },
+  "kIP8Ig": {
+    "message": "Are you sure you want to delete snapshot repository \"{name}\"? Existing snapshot data files won't be deleted, but the repository registration will be removed from the ES cluster.",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to delete snapshot repository \"{name}\"? Existing snapshot data files won't be deleted, but the repository registration will be removed from the ES cluster."
+  },
+  "qry4kg": {
+    "message": "Are you sure you want to delete template \"{name}\"?",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to delete template \"{name}\"?"
+  },
+  "xvLbOg": {
+    "message": "Are you sure you want to delete?",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to delete?"
+  },
+  "H/oo6B": {
+    "message": "Are you sure you want to immediately execute policy \"{policyId}\" to create a snapshot?",
+    "placeholders": {
+      "policyId": [
+        "policyId"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to immediately execute policy \"{policyId}\" to create a snapshot?"
+  },
+  "+WOroB": {
+    "message": "Are you sure you want to merge segments for index {name}? Merging is very resource-intensive and will be submitted to ES backend.",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to merge segments for index {name}? Merging is very resource-intensive and will be submitted to ES backend."
+  },
+  "DEvWhJ": {
+    "message": "Are you sure you want to remove alias {alias}?",
+    "placeholders": {
+      "alias": [
+        "alias"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Are you sure you want to remove alias {alias}?"
+  },
+  "+fJJG7": {
+    "message": "Backup successful",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Backup successful"
+  },
+  "LKTNVR": {
+    "message": "Batch Actions",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Batch Actions"
+  },
+  "lTIVYl": {
+    "message": "Bool Compound Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Bool Compound Query"
+  },
+  "O2UpM1": {
+    "message": "Browse",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Browse"
+  },
+  "juYOjP": {
+    "message": "Browse, edit, import documents and field statistics",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Browse, edit, import documents and field statistics"
+  },
+  "000Kz2": {
+    "message": "CA Certificate",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "CA Certificate"
+  },
+  "G39zBp": {
+    "message": "Cache",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Cache"
+  },
+  "zGqos5": {
+    "message": "Cache Details",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Cache Details"
+  },
+  "dEgA5A": {
+    "message": "Cancel",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/utils/feedback.tsx"
+      ]
+    ],
+    "translation": "Cancel"
+  },
+  "5eKLce": {
+    "message": "Cancellable",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Cancellable"
+  },
+  "39hdMQ": {
+    "message": "Cannot connect to GitHub, check update failed",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "Cannot connect to GitHub, check update failed"
+  },
+  "QXnnUA": {
+    "message": "Cardinality Aggregation",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Cardinality Aggregation"
+  },
+  "fR2Ds4": {
+    "message": "Cardinality: {count}",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Cardinality: {count}"
+  },
+  "xCJdfg": {
+    "message": "Clear",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Clear"
+  },
+  "ywTNGo": {
+    "message": "Clear Cache",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Clear Cache"
+  },
+  "7t/TSg": {
+    "message": "Clear results",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Clear results"
+  },
+  "yz7wBu": {
+    "message": "Close",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Close"
+  },
+  "SN7KfP": {
+    "message": "Close Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Close Index"
+  },
+  "M3GuNX": {
+    "message": "Cluster",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Cluster"
+  },
+  "JeYC0M": {
+    "message": "Cluster health",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Cluster health"
+  },
+  "dNpIsG": {
+    "message": "Cluster health status (green, yellow, red)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Cluster health status (green, yellow, red)"
+  },
+  "glO66V": {
+    "message": "Cluster name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Cluster name"
+  },
+  "Rb3s07": {
+    "message": "Cluster-wide Sampling Warning",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Cluster-wide Sampling Warning"
+  },
+  "YioPHN": {
+    "message": "Cluster: {name}",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Cluster: {name}"
+  },
+  "3nO7Gx": {
+    "message": "Component Templates",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Component Templates"
+  },
+  "7f4TcH": {
+    "message": "Composed Of",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Composed Of"
+  },
+  "7VpPHA": {
+    "message": "Confirm",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/utils/feedback.tsx"
+      ]
+    ],
+    "translation": "Confirm"
+  },
+  "QHcLEN": {
+    "message": "Connected",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Connected"
+  },
+  "J28zul": {
+    "message": "Connecting...",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Health.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Connecting..."
+  },
+  "DAyltC": {
+    "message": "Connection failed: {res}",
+    "placeholders": {
+      "res": [
+        "res"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Connection failed: {res}"
+  },
+  "etXfkU": {
+    "message": "Connection successful",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Connection successful"
+  },
+  "9sj0G8": {
+    "message": "Copy failed",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Copy failed"
+  },
+  "uAzYKl": {
+    "message": "Copy result",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Copy result"
+  },
+  "ePYZBv": {
+    "message": "CPU Load",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "CPU Load"
+  },
+  "IVZial": {
+    "message": "CPU Load (5m)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "CPU Load (5m)"
+  },
+  "nfiMUk": {
+    "message": "Create ILM Policy",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Create ILM Policy"
+  },
+  "c1pf0t": {
+    "message": "Create Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Create Index"
+  },
+  "NvqKnP": {
+    "message": "Create Policy",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Create Policy"
+  },
+  "5NaQxB": {
+    "message": "Create Repository",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Create Repository"
+  },
+  "EQ34wv": {
+    "message": "Create Snapshot",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Create Snapshot"
+  },
+  "s7XwOU": {
+    "message": "Create Template",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Create Template"
+  },
+  "i4Wnp+": {
+    "message": "CSV file exported successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "CSV file exported successfully"
+  },
+  "z3UACQ": {
+    "message": "CSV requires a header row and at least one data row",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "CSV requires a header row and at least one data row"
+  },
+  "IFjFN4": {
+    "message": "Current cluster: [{name}]",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "Current cluster: [{name}]"
+  },
+  "IedKSJ": {
+    "message": "Data copy will run asynchronously in the background. Check progress on the Task page.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Data copy will run asynchronously in the background. Check progress on the Task page."
+  },
+  "PWJtmq": {
+    "message": "Date Histogram Aggregation",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Date Histogram Aggregation"
+  },
+  "cnGeoo": {
+    "message": "Delete",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Delete"
+  },
+  "Wvr2ZZ": {
+    "message": "Delete by Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Delete by Query"
+  },
+  "ysL95e": {
+    "message": "Delete by query requires a query condition to prevent accidental full deletion",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Delete by query requires a query condition to prevent accidental full deletion"
+  },
+  "o3tP/A": {
+    "message": "Delete Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Delete Index"
+  },
+  "8BXP90": {
+    "message": "Delete task submitted (async)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Delete task submitted (async)"
+  },
+  "xwYwYs": {
+    "message": "Deleted Docs",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Deleted Docs"
+  },
+  "Nu4oKW": {
+    "message": "Description",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ]
+    ],
+    "translation": "Description"
+  },
+  "rfoPGr": {
+    "message": "Destination Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Destination Index"
+  },
+  "Bzn0RL": {
+    "message": "Destination index name (may not exist yet)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Destination index name (may not exist yet)"
+  },
+  "URmyfc": {
+    "message": "Details",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Details"
+  },
+  "DP0cra": {
+    "message": "Dev Tools",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Dev Tools"
+  },
+  "Oe+G6M": {
+    "message": "Diagnose",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Diagnose"
+  },
+  "gMnhTK": {
+    "message": "Disk Usage",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Disk Usage"
+  },
+  "JHHvFS": {
+    "message": "Disk Usage (%)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Disk Usage (%)"
+  },
+  "7NL+7g": {
+    "message": "Doc Count",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Doc Count"
+  },
+  "TbjyhA": {
+    "message": "Docs",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ]
+    ],
+    "translation": "Docs"
+  },
+  "kbjghE": {
+    "message": "Document {id} deleted",
+    "placeholders": {
+      "id": [
+        "id"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Document {id} deleted"
+  },
+  "A+TsK9": {
+    "message": "Document added successfully, id: {id}",
+    "placeholders": {
+      "id": [
+        "id"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Document added successfully, id: {id}"
+  },
+  "CTu0j+": {
+    "message": "Document Content",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Document Content"
+  },
+  "CN6yJW": {
+    "message": "Document content is not valid JSON",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Document content is not valid JSON"
+  },
+  "NB9et5": {
+    "message": "Document data must be a JSON array",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Document data must be a JSON array"
+  },
+  "ZFLYVu": {
+    "message": "Document saved successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Document saved successfully"
+  },
+  "E/muDO": {
+    "message": "Documents",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Documents"
+  },
+  "mRvhOV": {
+    "message": "Download Now",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "Download Now"
+  },
+  "ePK91l": {
+    "message": "Edit",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Edit"
+  },
+  "X8x8v5": {
+    "message": "Edit Connection",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Edit Connection"
+  },
+  "MGINip": {
+    "message": "Edit Mapping",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Edit Mapping"
+  },
+  "C/TBiI": {
+    "message": "Edit Settings",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Edit Settings"
+  },
+  "rAx5u1": {
+    "message": "End Time",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "End Time"
+  },
+  "lYGfRP": {
+    "message": "English",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "English"
+  },
+  "hzUtpO": {
+    "message": "Enter a JSON array where each element is a document",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Enter a JSON array where each element is a document"
+  },
+  "3QRjMa": {
+    "message": "Enter CA certificate content",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Enter CA certificate content"
+  },
+  "UV9Kbd": {
+    "message": "Enter index name to backup",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Enter index name to backup"
+  },
+  "FYa2Je": {
+    "message": "Enter node name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Enter node name"
+  },
+  "f7sXvi": {
+    "message": "Enter password",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Enter password"
+  },
+  "AMhB1z": {
+    "message": "Enter protocol://host:port",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Enter protocol://host:port"
+  },
+  "mLAofx": {
+    "message": "Enter query DSL, leave empty for all",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Enter query DSL, leave empty for all"
+  },
+  "7HnfK/": {
+    "message": "Enter REST API path starting with /; use POST for queries; GET does not carry body",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Enter REST API path starting with /; use POST for queries; GET does not carry body"
+  },
+  "CM4DUJ": {
+    "message": "Enter text to analyze, press Enter to run",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "Enter text to analyze, press Enter to run"
+  },
+  "WLnvCZ": {
+    "message": "Enter username",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Enter username"
+  },
+  "DE8+yF": {
+    "message": "ES DSL Query Examples",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "ES DSL Query Examples"
+  },
+  "LVhoWW": {
+    "message": "ES Query Examples",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "ES Query Examples"
+  },
+  "hFthoo": {
+    "message": "Examples",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Examples"
+  },
+  "ZC2VJP": {
+    "message": "Execute",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Execute"
+  },
+  "0Wv5II": {
+    "message": "Exists Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Exists Query"
+  },
+  "vzH+7Z": {
+    "message": "Explain",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Explain"
+  },
+  "8WzYjX": {
+    "message": "Explain Unassigned",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Explain Unassigned"
+  },
+  "GS+Mus": {
+    "message": "Export",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Export"
+  },
+  "67N/ir": {
+    "message": "Export connections",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Export connections"
+  },
+  "2KAI4N": {
+    "message": "Export CSV",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Export CSV"
+  },
+  "i3pIbG": {
+    "message": "Export failed: {0}",
+    "placeholders": {
+      "0": [
+        "(e as Error).message"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Export failed: {0}"
+  },
+  "xNnPJV": {
+    "message": "Export Result",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Export Result"
+  },
+  "v7l4Ls": {
+    "message": "Exported {count} connections",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Exported {count} connections"
+  },
+  "vTZyqL": {
+    "message": "Failed to read file",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Failed to read file"
+  },
+  "fPsChh": {
+    "message": "Failed to save query: {msg}",
+    "placeholders": {
+      "msg": [
+        "msg"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Failed to save query: {msg}"
+  },
+  "AXjA78": {
+    "message": "Field",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Field"
+  },
+  "UHNq2J": {
+    "message": "Field Stats",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Field Stats"
+  },
+  "5FD1aN": {
+    "message": "File loaded: {name}",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "File loaded: {name}"
+  },
+  "P5bAst": {
+    "message": "Fill Sample Template",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Fill Sample Template"
+  },
+  "9hSa1c": {
+    "message": "Filter (optional, query clause JSON)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Filter (optional, query clause JSON)"
+  },
+  "bBIKjS": {
+    "message": "Filter by index (supports *)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Filter by index (supports *)"
+  },
+  "U6uF0J": {
+    "message": "Filter by pool/node name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Filter by pool/node name"
+  },
+  "u/NqE3": {
+    "message": "Filter by state",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Filter by state"
+  },
+  "L7n1vq": {
+    "message": "Flush",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Flush"
+  },
+  "5ppr76": {
+    "message": "From Template",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "From Template"
+  },
+  "4bSfyP": {
+    "message": "FS",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "FS"
+  },
+  "2+KutH": {
+    "message": "Full Key",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Full Key"
+  },
+  "rEjgAu": {
+    "message": "Fuzzy search index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Fuzzy search index"
+  },
+  "UPqS9C": {
+    "message": "Health",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Health.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Health"
+  },
+  "jxsuva": {
+    "message": "Health Metrics",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Health Metrics"
+  },
+  "WOYhNS": {
+    "message": "Health: {status}",
+    "placeholders": {
+      "status": [
+        "status"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "Health: {status}"
+  },
+  "dTA/LS": {
+    "message": "Heap Max",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Heap Max"
+  },
+  "HYTL1Q": {
+    "message": "Heap Usage",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Heap Usage"
+  },
+  "8ki6E9": {
+    "message": "Heap Usage (%)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Heap Usage (%)"
+  },
+  "217gko": {
+    "message": "Heap Used",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Heap Used"
+  },
+  "0caMy7": {
+    "message": "History",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ],
+      [
+        "src/components/DevTool.tsx"
+      ],
+      [
+        "src/components/Rest.tsx"
+      ],
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "History"
+  },
+  "i0qMbr": {
+    "message": "Home",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "Home"
+  },
+  "T7AIOX": {
+    "message": "Hot Threads",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Hot Threads"
+  },
+  "TXcQaf": {
+    "message": "ILM policy created successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "ILM policy created successfully"
+  },
+  "5yBAIs": {
+    "message": "ILM policy deleted",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "ILM policy deleted"
+  },
+  "l3s5ri": {
+    "message": "Import",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Import"
+  },
+  "HHafvN": {
+    "message": "Import finished: {success} succeeded, {failed} failed. First error: {msg}",
+    "placeholders": {
+      "success": [
+        "success"
+      ],
+      "failed": [
+        "failed"
+      ],
+      "msg": [
+        "msg"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Import finished: {success} succeeded, {failed} failed. First error: {msg}"
+  },
+  "7Xpzwm": {
+    "message": "Include Global State",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Include Global State"
+  },
+  "kpHio7": {
+    "message": "Include passwords",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Include passwords"
+  },
+  "Cp8xZT": {
+    "message": "Include passwords in the export file? Keep the file safe if passwords are included.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Include passwords in the export file? Keep the file safe if passwords are included."
+  },
+  "TBAtvr": {
+    "message": "Incorrect group number, please check on GitHub",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Incorrect group number, please check on GitHub"
+  },
+  "EIrE3l": {
+    "message": "Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Analyze.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Index"
+  },
+  "rG0oRA": {
+    "message": "Index [{name}] created successfully",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Index [{name}] created successfully"
+  },
+  "6U3L7j": {
+    "message": "Index Backup (Preview)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Index Backup (Preview)"
+  },
+  "nETsA9": {
+    "message": "Index mapping",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Index mapping"
+  },
+  "XyDlLX": {
+    "message": "Index Name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Index Name"
+  },
+  "TfPHvX": {
+    "message": "Index Patterns",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Index Patterns"
+  },
+  "Ebbq8l": {
+    "message": "Index Templates",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Index Templates"
+  },
+  "e6Lu1A": {
+    "message": "index-list.csv",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "index-list.csv"
+  },
+  "veRhbW": {
+    "message": "Indices",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Indices"
+  },
+  "H13aTu": {
+    "message": "Indices (comma separated)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Indices (comma separated)"
+  },
+  "Sqihjf": {
+    "message": "Indices In Use",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Indices In Use"
+  },
+  "S8Yqbl": {
+    "message": "Insert",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Insert"
+  },
+  "nmLAQm": {
+    "message": "Insert example request",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Insert example request"
+  },
+  "R/wIYV": {
+    "message": "Insert Order",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Insert Order"
+  },
+  "d+w5zz": {
+    "message": "Invalid file: please select a connections JSON exported from ES-King",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Invalid file: please select a connections JSON exported from ES-King"
+  },
+  "XDWu5B": {
+    "message": "IP",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "IP"
+  },
+  "7sMeHQ": {
+    "message": "Key",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ]
+    ],
+    "translation": "Key"
+  },
+  "vXIe7J": {
+    "message": "Language",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "Language"
+  },
+  "hT6IOu": {
+    "message": "Last Failure",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Last Failure"
+  },
+  "TKxZhG": {
+    "message": "Last Success",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Last Success"
+  },
+  "u0sybf": {
+    "message": "Leave empty for all indices",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Leave empty for all indices"
+  },
+  "D6i/hG": {
+    "message": "Lifecycle (ILM)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Lifecycle (ILM)"
+  },
+  "KHZ3Le": {
+    "message": "List indices",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "List indices"
+  },
+  "k4N7o+": {
+    "message": "Manage Aliases",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Manage Aliases"
+  },
+  "0ps6SP": {
+    "message": "Manage index templates and component templates",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Manage index templates and component templates"
+  },
+  "qMZJiA": {
+    "message": "mapping",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "mapping"
+  },
+  "jbdUyb": {
+    "message": "Mapping is not valid JSON",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Mapping is not valid JSON"
+  },
+  "tSZLIu": {
+    "message": "Mapping saved successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Mapping saved successfully"
+  },
+  "c2mIj2": {
+    "message": "Match Phrase Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Match Phrase Query"
+  },
+  "G+SzyV": {
+    "message": "Match Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Match Query"
+  },
+  "Xja49f": {
+    "message": "Max task waiting time in queue (ms)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Max task waiting time in queue (ms)"
+  },
+  "v8o+Rn": {
+    "message": "Memory",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ]
+    ],
+    "translation": "Memory"
+  },
+  "UODtG8": {
+    "message": "Merge",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Merge"
+  },
+  "W4bsEz": {
+    "message": "Merge request submitted. Merging is I/O intensive, please monitor cluster load.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Merge request submitted. Merging is I/O intensive, please monitor cluster load."
+  },
+  "6t8PX6": {
+    "message": "Merge Segments",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Merge Segments"
+  },
+  "VXFjd8": {
+    "message": "Metrics",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Core.tsx"
+      ]
+    ],
+    "translation": "Metrics"
+  },
+  "q2NaFP": {
+    "message": "Metrics Aggregation",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Metrics Aggregation"
+  },
+  "kuTdnb": {
+    "message": "Modified At",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Modified At"
+  },
+  "bv3o2/": {
+    "message": "Multi-match Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Multi-match Query"
+  },
+  "At9xzI": {
+    "message": "Multiple requests in one editor, separated by # lines",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Multiple requests in one editor, separated by # lines"
+  },
+  "6YtxFj": {
+    "message": "Name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Name"
+  },
+  "VrEUBx": {
+    "message": "name,age,city\nAlice,20,Beijing\nBob,25,Shanghai",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "name,age,city\nAlice,20,Beijing\nBob,25,Shanghai"
+  },
+  "Y9vT+p": {
+    "message": "Nested Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Nested Query"
+  },
+  "csG78g": {
+    "message": "New Alias",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "New Alias"
+  },
+  "dM+qQC": {
+    "message": "New version found: {tag}",
+    "placeholders": {
+      "tag": [
+        "tag"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "New version found: {tag}"
+  },
+  "hXzOVo": {
+    "message": "Next",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Next"
+  },
+  "WwKMiy": {
+    "message": "Next Execution",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Next Execution"
+  },
+  "4hfTrB": {
+    "message": "Nickname",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Nickname"
+  },
+  "1UzENP": {
+    "message": "No",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "No"
+  },
+  "fegUya": {
+    "message": "No aliases",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "No aliases"
+  },
+  "w5xu1p": {
+    "message": "No connections to export",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "No connections to export"
+  },
+  "plhHQt": {
+    "message": "No data",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "No data"
+  },
+  "8Vj6Q/": {
+    "message": "No data to export",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "No data to export"
+  },
+  "flmDTf": {
+    "message": "No description",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "No description"
+  },
+  "Ta25TG": {
+    "message": "No history yet",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "No history yet"
+  },
+  "e6LhL+": {
+    "message": "No index is specified. This will query all physical shards across the entire cluster. In large clusters (tens of thousands of shards), this requests the Master node to serialize the full routing table and may cause temporary Master load spikes. Are you sure you want to proceed?",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "No index is specified. This will query all physical shards across the entire cluster. In large clusters (tens of thousands of shards), this requests the Master node to serialize the full routing table and may cause temporary Master load spikes. Are you sure you want to proceed?"
+  },
+  "fqDoLg": {
+    "message": "No matched history",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "No matched history"
+  },
+  "60eoC8": {
+    "message": "No request found, write one like: GET /_cluster/health",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ],
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "No request found, write one like: GET /_cluster/health"
+  },
+  "ljGIqZ": {
+    "message": "No request parsed yet. Format: METHOD /path, an optional JSON body on the following lines, requests separated by # lines.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "No request parsed yet. Format: METHOD /path, an optional JSON body on the following lines, requests separated by # lines."
+  },
+  "wpEPT9": {
+    "message": "No specific node is selected. This will trigger JVM hot thread sampling across ALL nodes simultaneously. In large clusters, this adds CPU sampling pressure to every node and may take a while. Are you sure you want to proceed?",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "No specific node is selected. This will trigger JVM hot thread sampling across ALL nodes simultaneously. In large clusters, this adds CPU sampling pressure to every node and may take a while. Are you sure you want to proceed?"
+  },
+  "wZDHmg": {
+    "message": "No tokens produced",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "No tokens produced"
+  },
+  "DgA1yv": {
+    "message": "No unassigned shards currently",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "No unassigned shards currently"
+  },
+  "Ky08YO": {
+    "message": "No valid connections in the file (missing name or host)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "No valid connections in the file (missing name or host)"
+  },
+  "Ah7JCB": {
+    "message": "Node",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Node"
+  },
+  "3wmyrL": {
+    "message": "Nodes",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Nodes"
+  },
+  "t1PEw/": {
+    "message": "Not executed yet",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Not executed yet"
+  },
+  "cewhyx": {
+    "message": "Number of active primary shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Number of active primary shards"
+  },
+  "KTZuQ6": {
+    "message": "Number of active total shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Number of active total shards"
+  },
+  "evGuWQ": {
+    "message": "Number of data nodes in the cluster",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Number of data nodes in the cluster"
+  },
+  "a40Mlt": {
+    "message": "Number of delayed unassigned shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Number of delayed unassigned shards"
+  },
+  "hRhyLF": {
+    "message": "Number of in-flight shard fetches",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Number of in-flight shard fetches"
+  },
+  "M6O9Bo": {
+    "message": "Number of nodes in the cluster",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Number of nodes in the cluster"
+  },
+  "HCOg7H": {
+    "message": "Number of pending cluster-level tasks",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Number of pending cluster-level tasks"
+  },
+  "ONdaOP": {
+    "message": "Number of Replicas",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Number of Replicas"
+  },
+  "HjSE+5": {
+    "message": "Number of shards being initialized",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Number of shards being initialized"
+  },
+  "U0axqz": {
+    "message": "Number of shards being relocated",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Number of shards being relocated"
+  },
+  "oOFjLZ": {
+    "message": "Number of unassigned shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Number of unassigned shards"
+  },
+  "x96j/s": {
+    "message": "Only dynamically updatable settings are supported (e.g. number_of_replicas, refresh_interval)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Only dynamically updatable settings are supported (e.g. number_of_replicas, refresh_interval)"
+  },
+  "tVfKl8": {
+    "message": "Open Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Open Index"
+  },
+  "/fUM3P": {
+    "message": "Parent Task ID",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Parent Task ID"
+  },
+  "6oRT8t": {
+    "message": "Parse failed: {msg}",
+    "placeholders": {
+      "msg": [
+        "msg"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Parse failed: {msg}"
+  },
+  "8ZsakT": {
+    "message": "Password",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Password"
+  },
+  "sOEpG4": {
+    "message": "Pending Tasks",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Pending Tasks"
+  },
+  "/Bh+7r": {
+    "message": "Performance",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Performance"
+  },
+  "sic/rL": {
+    "message": "Phases",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Phases"
+  },
+  "phXYw3": {
+    "message": "Please enter a field name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Please enter a field name"
+  },
+  "HxNb9S": {
+    "message": "Please enter an alias",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Please enter an alias"
+  },
+  "btY6VW": {
+    "message": "Please enter document content",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Please enter document content"
+  },
+  "c2pDbi": {
+    "message": "Please enter text to analyze",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "Please enter text to analyze"
+  },
+  "DVRKhA": {
+    "message": "Please enter the destination index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Please enter the destination index"
+  },
+  "PJFONL": {
+    "message": "Please enter the template name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Please enter the template name"
+  },
+  "wwrAsK": {
+    "message": "Please fill in all required fields",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Please fill in all required fields"
+  },
+  "/86ws4": {
+    "message": "Please fill in the index name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Please fill in the index name"
+  },
+  "cwaR30": {
+    "message": "Please fill in the policy ID and policy content",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Please fill in the policy ID and policy content"
+  },
+  "X8WRnN": {
+    "message": "Please provide an analyzer or a field",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "Please provide an analyzer or a field"
+  },
+  "AgGVph": {
+    "message": "Please select a repository and snapshot",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Please select a repository and snapshot"
+  },
+  "MzYyyo": {
+    "message": "Please select an index first",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Please select an index first"
+  },
+  "N0z/TR": {
+    "message": "Policy (JSON)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Policy (JSON)"
+  },
+  "XggIho": {
+    "message": "Policy deleted",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Policy deleted"
+  },
+  "5Z0UuG": {
+    "message": "Policy executed, snapshot is being created",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Policy executed, snapshot is being created"
+  },
+  "66N4vt": {
+    "message": "Policy ID",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Policy ID"
+  },
+  "ou6PkF": {
+    "message": "Pool",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Pool"
+  },
+  "PvprFB": {
+    "message": "Prev",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Prev"
+  },
+  "T/R+Qz": {
+    "message": "Primary",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Primary"
+  },
+  "MkRMc+": {
+    "message": "Primary Shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Primary Shards"
+  },
+  "1hKEom": {
+    "message": "Priority",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Priority"
+  },
+  "1B9XX0": {
+    "message": "Process",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Process"
+  },
+  "6FimJy": {
+    "message": "ProcessInfo",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "ProcessInfo"
+  },
+  "CP3D8G": {
+    "message": "Progress",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Progress"
+  },
+  "vfH+gE": {
+    "message": "Protocol://Host:Port",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Protocol://Host:Port"
+  },
+  "ZiE8s3": {
+    "message": "Query All Shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Query All Shards"
+  },
+  "zaPHfb": {
+    "message": "Query All Shards Warning",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Query All Shards Warning"
+  },
+  "WgMQoJ": {
+    "message": "Query DSL (optional), e.g. {\"term\":{\"status\":\"active\"}}",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Query DSL (optional), e.g. {\"term\":{\"status\":\"active\"}}"
+  },
+  "01Fp7d": {
+    "message": "Query DSL (optional), e.g. {\"term\":{\"status\":\"active\"}}. Leave empty to match all",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Query DSL (optional), e.g. {\"term\":{\"status\":\"active\"}}. Leave empty to match all"
+  },
+  "ta7yVO": {
+    "message": "Query DSL is not valid JSON",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Query DSL is not valid JSON"
+  },
+  "b24kPi": {
+    "message": "Queue",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Queue"
+  },
+  "qi/KXe": {
+    "message": "Range Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Range Query"
+  },
+  "TW3ZtU": {
+    "message": "Read Aliases",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Read Aliases"
+  },
+  "lCF0wC": {
+    "message": "Refresh",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Health.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Refresh"
+  },
+  "lPQ/Me": {
+    "message": "Refresh index list",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Refresh index list"
+  },
+  "dwkvt1": {
+    "message": "Reindex",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Reindex"
+  },
+  "xjiXOY": {
+    "message": "Reindex Data",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Reindex Data"
+  },
+  "LCG3wd": {
+    "message": "Reindex task submitted (async)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Reindex task submitted (async)"
+  },
+  "ekCRTP": {
+    "message": "Rejected",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Rejected"
+  },
+  "KCIwRk": {
+    "message": "Replica",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Replica"
+  },
+  "IreQBq": {
+    "message": "Repository",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Repository"
+  },
+  "wXTcRB": {
+    "message": "Repository created successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Repository created successfully"
+  },
+  "use7UA": {
+    "message": "Repository deleted",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Repository deleted"
+  },
+  "6reDaH": {
+    "message": "Repository Name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Repository Name"
+  },
+  "LRUiVk": {
+    "message": "Repository Type",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Repository Type"
+  },
+  "rDowPb": {
+    "message": "Repository verified, all nodes can access",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Repository verified, all nodes can access"
+  },
+  "YRhgrW": {
+    "message": "Request Body",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Request Body"
+  },
+  "PWfg7v": {
+    "message": "Requests",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Requests"
+  },
+  "ZpLEZY": {
+    "message": "Reset editor",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Reset editor"
+  },
+  "WHiaOl": {
+    "message": "REST",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "REST"
+  },
+  "yKu/3Y": {
+    "message": "Restore",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Restore"
+  },
+  "hMd3q8": {
+    "message": "Restore task submitted (async), please check restore progress",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Restore task submitted (async), please check restore progress"
+  },
+  "RD6AE9": {
+    "message": "Result",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Result"
+  },
+  "GDvlUT": {
+    "message": "Role",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Role"
+  },
+  "5dJK4M": {
+    "message": "Roles",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Roles"
+  },
+  "RPdYIv": {
+    "message": "Rows {from}-{to} of {total}",
+    "placeholders": {
+      "from": [
+        "from"
+      ],
+      "to": [
+        "to"
+      ],
+      "total": [
+        "total"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Rows {from}-{to} of {total}"
+  },
+  "3JjdaA": {
+    "message": "Run",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Run"
+  },
+  "Lhgi/Z": {
+    "message": "Run all",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Run all"
+  },
+  "gupfXO": {
+    "message": "Run every request in order (Ctrl/Cmd + Shift + Enter)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Run every request in order (Ctrl/Cmd + Shift + Enter)"
+  },
+  "2ukA05": {
+    "message": "Run the request under the cursor (Ctrl/Cmd + Enter)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Run the request under the cursor (Ctrl/Cmd + Enter)"
+  },
+  "eWHc40": {
+    "message": "Run this request",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Run this request"
+  },
+  "mwIC8k": {
+    "message": "Run Time",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Run Time"
+  },
+  "tfDRzk": {
+    "message": "Save",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Save"
+  },
+  "XpLnbk": {
+    "message": "Save failed: {err}",
+    "placeholders": {
+      "err": [
+        "err"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Save failed: {err}"
+  },
+  "uB85T3": {
+    "message": "Save failed: {msg}",
+    "placeholders": {
+      "msg": [
+        "msg"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "Save failed: {msg}"
+  },
+  "UGT5vp": {
+    "message": "Save Settings",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "Save Settings"
+  },
+  "OFqAkw": {
+    "message": "Saved successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "Saved successfully"
+  },
+  "gmB6oO": {
+    "message": "Schedule",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Schedule"
+  },
+  "mqlnas": {
+    "message": "Script Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Script Query"
+  },
+  "A1taO8": {
+    "message": "Search",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Search"
+  },
+  "VJp32f": {
+    "message": "Search history by method, path, or body",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Search history by method, path, or body"
+  },
+  "Xtv235": {
+    "message": "Search history by method, path, or DSL",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Search history by method, path, or DSL"
+  },
+  "6GAEQW": {
+    "message": "Search request",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Search request"
+  },
+  "1ZTiaz": {
+    "message": "Segments",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Segments"
+  },
+  "a2jh07": {
+    "message": "Select an index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Select an index"
+  },
+  "roa1AY": {
+    "message": "Select an index (optional, to test field analyzer)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "Select an index (optional, to test field analyzer)"
+  },
+  "cZHtsg": {
+    "message": "Select an index template (optional)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Select an index template (optional)"
+  },
+  "SlaSb0": {
+    "message": "Select Local File",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Select Local File"
+  },
+  "Vw/yUH": {
+    "message": "Select node (recommended)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Select node (recommended)"
+  },
+  "tOND78": {
+    "message": "Select snapshot to restore",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Select snapshot to restore"
+  },
+  "R7b71d": {
+    "message": "Select target repository",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Select target repository"
+  },
+  "JlFcis": {
+    "message": "Send",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Send"
+  },
+  "Tz0i8g": {
+    "message": "Settings",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Settings.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Settings"
+  },
+  "nzzoN2": {
+    "message": "Settings (JSON)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Settings (JSON)"
+  },
+  "q8j6QE": {
+    "message": "Settings are not valid JSON",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Settings are not valid JSON"
+  },
+  "gjNQhe": {
+    "message": "Settings saved successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Settings saved successfully"
+  },
+  "+OoySt": {
+    "message": "Shard",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Shard"
+  },
+  "y85BTe": {
+    "message": "Shard Allocation Explain",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Shard Allocation Explain"
+  },
+  "6tyH1j": {
+    "message": "Shard distribution, thread pools, hot threads, pending tasks",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Shard distribution, thread pools, hot threads, pending tasks"
+  },
+  "jXmyW/": {
+    "message": "Shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Shards"
+  },
+  "k1H3Y/": {
+    "message": "Shards allocation",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "Shards allocation"
+  },
+  "Cj2Gtd": {
+    "message": "Size",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Size"
+  },
+  "TcnOLX": {
+    "message": "Skip SSL Verify",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Skip SSL Verify"
+  },
+  "Zx5gyx": {
+    "message": "SLM Policy",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "SLM Policy"
+  },
+  "gOfZO7": {
+    "message": "SLM policy created successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "SLM policy created successfully"
+  },
+  "yTZe+y": {
+    "message": "Snapshot",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Snapshot"
+  },
+  "2G2Bmc": {
+    "message": "Snapshot creation started (async), please refresh to check status",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Snapshot creation started (async), please refresh to check status"
+  },
+  "kldJg2": {
+    "message": "Snapshot deleted",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Snapshot deleted"
+  },
+  "kjPVYR": {
+    "message": "Snapshot Management",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Snapshot Management"
+  },
+  "Kq2FJy": {
+    "message": "Snapshot Name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Snapshot Name"
+  },
+  "APHa4R": {
+    "message": "Snapshot Name Template",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Snapshot Name Template"
+  },
+  "OZ1mP3": {
+    "message": "Snapshot will be created asynchronously in the background. Check the snapshot list for progress.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Snapshot will be created asynchronously in the background. Check the snapshot list for progress."
+  },
+  "QXs8/8": {
+    "message": "Snapshots",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Snapshots"
+  },
+  "z6szsi": {
+    "message": "Source Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Source Index"
+  },
+  "U1OD/h": {
+    "message": "Source Node",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Source Node"
+  },
+  "3PRxO3": {
+    "message": "Stage",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Stage"
+  },
+  "AVgEIa": {
+    "message": "standard / ik_max_word / ...",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "standard / ik_max_word / ..."
+  },
+  "0c+2gN": {
+    "message": "Start Download",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Start Download"
+  },
+  "odeIN7": {
+    "message": "Start Import",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Start Import"
+  },
+  "TbxUp8": {
+    "message": "Start Sampling",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Start Sampling"
+  },
+  "1PQRWr": {
+    "message": "Start Time",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Start Time"
+  },
+  "RS0o7b": {
+    "message": "State",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "State"
+  },
+  "uAQUqI": {
+    "message": "Status",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Status"
+  },
+  "BrrIs8": {
+    "message": "Storage",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ]
+    ],
+    "translation": "Storage"
+  },
+  "W2To5U": {
+    "message": "Store Size",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Store Size"
+  },
+  "bX9sp+": {
+    "message": "Store Used",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Store Used"
+  },
+  "5pIVql": {
+    "message": "Successful Shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Successful Shards"
+  },
+  "tKq/wg": {
+    "message": "Successfully deleted {count} indices",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Successfully deleted {count} indices"
+  },
+  "yBH9nD": {
+    "message": "Successfully imported {count} documents",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "Successfully imported {count} documents"
+  },
+  "D+NlUC": {
+    "message": "System",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "System"
+  },
+  "8x9Qq9": {
+    "message": "Table View",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Table View"
+  },
+  "xTH5bA": {
+    "message": "Target Node",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Target Node"
+  },
+  "YgxM31": {
+    "message": "Task ID",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Task ID"
+  },
+  "vkT6rL": {
+    "message": "task-list.csv",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "task-list.csv"
+  },
+  "GtycJ/": {
+    "message": "Tasks",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Tasks"
+  },
+  "/K2CvV": {
+    "message": "Template",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Template"
+  },
+  "hKvdeF": {
+    "message": "Template (JSON)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Template (JSON)"
+  },
+  "QHhZeE": {
+    "message": "Template created successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Template created successfully"
+  },
+  "ZTgE3k": {
+    "message": "Template deleted",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Template deleted"
+  },
+  "U1Im+N": {
+    "message": "Template Name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Template Name"
+  },
+  "iTylMl": {
+    "message": "Templates",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "Templates"
+  },
+  "bAYZ7B": {
+    "message": "Term Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Term Query"
+  },
+  "kfubA2": {
+    "message": "Terminate",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Terminate"
+  },
+  "n+Ii4O": {
+    "message": "Terms Aggregation",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Terms Aggregation"
+  },
+  "Nb7Z2i": {
+    "message": "Terms Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Terms Query"
+  },
+  "9X5NMq": {
+    "message": "Test analyzer tokenization (_analyze)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "Test analyzer tokenization (_analyze)"
+  },
+  "s7uMvM": {
+    "message": "Test Connection",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Test Connection"
+  },
+  "xeiujy": {
+    "message": "Text",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "Text"
+  },
+  "AHXZJq": {
+    "message": "The first CSV row is the header (field names), each following row is a document. Double quotes are supported.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "The first CSV row is the header (field names), each following row is a document. Double quotes are supported."
+  },
+  "FEr96N": {
+    "message": "Theme",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "Theme"
+  },
+  "Pep+iA": {
+    "message": "Thread Pools",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Thread Pools"
+  },
+  "gMZL/Y": {
+    "message": "Time in Queue",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "Time in Queue"
+  },
+  "TP9/K5": {
+    "message": "Token",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "Token"
+  },
+  "pBYhJU": {
+    "message": "Total Cache",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Total Cache"
+  },
+  "JoKxMw": {
+    "message": "Total Disk",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Total Disk"
+  },
+  "iWZLw0": {
+    "message": "Total Docs",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Total Docs"
+  },
+  "YNw9SA": {
+    "message": "Total Segments",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Total Segments"
+  },
+  "BWkpRk": {
+    "message": "Total Shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Total Shards"
+  },
+  "+zy2Nq": {
+    "message": "Type",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Type"
+  },
+  "vmiKsn": {
+    "message": "Updated {count} existing connections, nothing added",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Updated {count} existing connections, nothing added"
+  },
+  "TjrbDj": {
+    "message": "Uptime",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "Uptime"
+  },
+  "Xg3aVa": {
+    "message": "Use SSL",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Use SSL"
+  },
+  "2Poq0i": {
+    "message": "Use the analyzer of a field in the index; overrides analyzer",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "Use the analyzer of a field in the index; overrides analyzer"
+  },
+  "7sNhEz": {
+    "message": "Username",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Username"
+  },
+  "wMHvYH": {
+    "message": "Value",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Value"
+  },
+  "SImomz": {
+    "message": "Verification code (QQ group number), please check on GitHub",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Verification code (QQ group number), please check on GitHub"
+  },
+  "1mLIrL": {
+    "message": "Verification failed: {msg}",
+    "placeholders": {
+      "msg": [
+        "msg"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Verification failed: {msg}"
+  },
+  "uSMfoN": {
+    "message": "Verify",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Verify"
+  },
+  "4mNlzL": {
+    "message": "View 10 Docs",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "View 10 Docs"
+  },
+  "SZw9tS": {
+    "message": "View Details",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "View Details"
+  },
+  "r6y+jM": {
+    "message": "Warning",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/utils/feedback.tsx"
+      ]
+    ],
+    "translation": "Warning"
+  },
+  "hLuILq": {
+    "message": "Warning: Restoring will create indices in the cluster. If an index with the same name already exists and is not closed, the restore will fail. Use rename pattern to avoid conflicts.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Warning: Restoring will create indices in the cluster. If an index with the same name already exists and is not closed, the restore will fail. Use rename pattern to avoid conflicts."
+  },
+  "otkG4y": {
+    "message": "Whether the request timed out",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "Whether the request timed out"
+  },
+  "mmISLa": {
+    "message": "Wildcard Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Wildcard Query"
+  },
+  "Hl91fC": {
+    "message": "Window Height",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "Window Height"
+  },
+  "FuBCuA": {
+    "message": "Window Width",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "Window Width"
+  },
+  "w6aOJG": {
+    "message": "Without passwords",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "Without passwords"
+  },
+  "l75CjT": {
+    "message": "Yes",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Yes"
+  },
+  "eRKkfv": {
+    "message": "You can only add new fields or change dynamic parameters. Changing types of existing fields will be rejected by ES.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "You can only add new fields or change dynamic parameters. Changing types of existing fields will be rejected by ES."
+  },
+  "yT1MvX": {
+    "message": "You selected {count} rows.",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "You selected {count} rows."
+  },
+  "AYhVtE": {
+    "message": "中文",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "中文"
+  }
+}

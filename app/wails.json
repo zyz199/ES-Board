@@ -1,0 +1,19 @@
+{
+  "name": "ES-King",
+  "outputfilename": "ES-King",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm run build",
+  "frontend:dev:watcher": "pnpm run dev",
+  "frontend:dev:serverUrl": "http://localhost:5174",
+  "author": {
+    "name": "zyz199",
+    "email": "zhangyz652@gmail.com"
+  },
+  "info": {
+    "companyName": "zyz199",
+    "productName": "ES-Board",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright © 2024",
+    "comments": "comments"
+  }
+}

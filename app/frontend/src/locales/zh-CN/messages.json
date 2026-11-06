@@ -1,0 +1,5747 @@
+{
+  "About": {
+    "translation": "关于",
+    "obsolete": true
+  },
+  "Apply": {
+    "translation": "应用",
+    "obsolete": true
+  },
+  "Are you sure you want to delete ILM policy \"{name}\"? Indices using it will no longer be lifecycle-managed.": {
+    "translation": "确定要删除ILM策略「{name}」吗？正在使用该策略的索引将不再受生命周期管理。",
+    "obsolete": true
+  },
+  "Are you sure you want to delete SLM policy \"{name}\"? Existing snapshots won't be deleted.": {
+    "translation": "确定要删除自动快照策略「{name}」吗？已创建的快照不会被删除。",
+    "obsolete": true
+  },
+  "Are you sure you want to immediately execute policy \"{name}\" to create a snapshot?": {
+    "translation": "确定要立即执行策略「{name}」创建一个快照吗？",
+    "obsolete": true
+  },
+  "Check version: {version} {msg}": {
+    "translation": "检查版本：{version} {msg}",
+    "obsolete": true
+  },
+  "Connection failed: {msg}": {
+    "translation": "连接失败：{msg}",
+    "obsolete": true
+  },
+  "Donations keep open source projects alive, thank you!": {
+    "translation": "打赏是开源项目生存的动力，谢谢！",
+    "obsolete": true
+  },
+  "ES-King": {
+    "translation": "ES-King",
+    "obsolete": true
+  },
+  "Export failed: {msg}": {
+    "translation": "导出失败：{msg}",
+    "obsolete": true
+  },
+  "Favorite Name": {
+    "translation": "收藏名称",
+    "obsolete": true
+  },
+  "Favorites": {
+    "translation": "我的收藏",
+    "obsolete": true
+  },
+  "Loading...": {
+    "translation": "加载中...",
+    "obsolete": true
+  },
+  "No favorites yet. Click \"Save Favorite\" to keep frequent queries.": {
+    "translation": "暂无收藏，点击「收藏查询」保存常用查询",
+    "obsolete": true
+  },
+  "Please enter a name": {
+    "translation": "请输入收藏名称",
+    "obsolete": true
+  },
+  "Please enter index name": {
+    "translation": "请输入索引名称",
+    "obsolete": true
+  },
+  "Please enter number of primary shards": {
+    "translation": "请输入主分片",
+    "obsolete": true
+  },
+  "Please enter number of replicas": {
+    "translation": "请输入副本数量",
+    "obsolete": true
+  },
+  "Project Home": {
+    "translation": "项目主页",
+    "obsolete": true
+  },
+  "Recommended AI Coding Assistant": {
+    "translation": "推荐 AI 编程助手",
+    "obsolete": true
+  },
+  "Recommended Kafka Client": {
+    "translation": "推荐同款 Kafka 客户端",
+    "obsolete": true
+  },
+  "Restore parameters filled, please switch to the Restore tab to confirm and execute": {
+    "translation": "已填入恢复参数，请切换到「快照恢复」标签页确认并执行",
+    "obsolete": true
+  },
+  "Save Favorite": {
+    "translation": "收藏查询",
+    "obsolete": true
+  },
+  "Task": {
+    "translation": "Task",
+    "obsolete": true
+  },
+  "Tech Group": {
+    "translation": "技术交流群",
+    "obsolete": true
+  },
+  "XGrAzU": {
+    "message": "[\n  {\"name\": \"Alice\", \"age\": 20},\n  {\"name\": \"Bob\", \"age\": 25}\n]",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "[\n  {\"name\": \"张三\", \"age\": 20},\n  {\"name\": \"李四\", \"age\": 25}\n]"
+  },
+  "1gNf9f": {
+    "message": "[This feature is still in testing. Please enter the QQ group number, otherwise download will not work. If you encounter bugs, please report to the group owner.]",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "【当前该功能还在测试中，使用请输入QQ群号，否则无法下载。如果遇到了bug，请反馈给群主。】"
+  },
+  "ftu1Yq": {
+    "message": "{\"tip\": \"Response result, searchable\"}",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ],
+      [
+        "src/components/Rest.tsx"
+      ],
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "{\"tip\": \"响应结果，支持搜索\"}"
+  },
+  "W5GX2f": {
+    "message": "{count} documents ready to import",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "已识别 {count} 条待导入数据"
+  },
+  "cqv1wD": {
+    "message": "{count} in total",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "共计 {count} 个"
+  },
+  "PYD5ka": {
+    "message": "{count} total",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "共计{count}个"
+  },
+  "CTU1A0": {
+    "message": "💡 It is recommended to select a specific node. Cluster-wide sampling triggers JVM stack sampling on every node concurrently and may cause temporary CPU spikes in large clusters.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "💡 推荐在左侧选择具体节点进行定向采样。全集群采样会对所有数据节点并发采集 JVM 线程堆栈，在大型集群中可能产生瞬时 CPU 波动。"
+  },
+  "KzCUdG": {
+    "message": "💡 To avoid heavy Master node serialization load in huge clusters, all shards are not loaded automatically. Please enter an index name to query, or click 'Query All Shards'.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "💡 为避免数十万分片全量扫描冲击 Master 节点，默认不自动拉取全量分片。请输入索引名精确查询，或点击【查询全量分片】。"
+  },
+  "EGW54D": {
+    "message": "A more user-friendly ES GUI",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "更人性化的ES GUI"
+  },
+  "wdoYIw": {
+    "message": "A RESTful debug tool with formatting/DSL autocomplete/examples/download/history",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "一个 Restful 调试工具，支持格式化/DSL提示补全/示例/下载/历史缓存"
+  },
+  "19Z6EG": {
+    "message": "About to restore snapshot \"{snap}\" from repository \"{repo}\". The restore operation will create index data in the cluster. Please confirm you understand the impact.",
+    "placeholders": {
+      "snap": [
+        "snap"
+      ],
+      "repo": [
+        "repo"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "即将从仓库「{repo}」恢复快照「{snap}」。恢复操作会在集群中创建索引数据，请确认已了解影响。"
+  },
+  "bwRvnp": {
+    "message": "Action",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "任务行为"
+  },
+  "7L01XJ": {
+    "message": "Actions",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "操作"
+  },
+  "F6pfE9": {
+    "message": "Active",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "活跃"
+  },
+  "0fOydD": {
+    "message": "Active shards percentage",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "活跃分片百分比"
+  },
+  "O4u5mO": {
+    "message": "Add Alias",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "添加别名"
+  },
+  "MCH6kA": {
+    "message": "Add Cluster",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "添加集群"
+  },
+  "wCfv2R": {
+    "message": "Add Connection",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "添加连接"
+  },
+  "VzbrlB": {
+    "message": "Add Document",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "添加文档"
+  },
+  "iT7UeX": {
+    "message": "Add Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "添加索引"
+  },
+  "ZbGKHi": {
+    "message": "Added {count} connections, updated {updated} with the same name",
+    "placeholders": {
+      "count": [
+        "count"
+      ],
+      "updated": [
+        "updated"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "新增 {count} 个连接，更新 {updated} 个同名连接"
+  },
+  "AuKncn": {
+    "message": "Aggregation request",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "聚合请求"
+  },
+  "EbuTi3": {
+    "message": "Alias",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "别名"
+  },
+  "PGLCrR": {
+    "message": "Alias added successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "别名添加成功"
+  },
+  "jhHEXU": {
+    "message": "Alias Management",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "别名管理"
+  },
+  "BDvZoU": {
+    "message": "Alias Parameters (optional, e.g. filter, routing)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "别名参数（可选，如 filter、routing）"
+  },
+  "Wde9VD": {
+    "message": "Alias parameters are not valid JSON",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "别名参数不是合法的JSON"
+  },
+  "CP64/n": {
+    "message": "Alias removed",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "别名已移除"
+  },
+  "QV0Fcd": {
+    "message": "Aliases",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "别名"
+  },
+  "P7SezZ": {
+    "message": "All Cluster Nodes (Heavy)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "全集群所有节点（高开销）"
+  },
+  "4mHRPy": {
+    "message": "An ILM policy contains phases (hot/warm/cold/delete, etc.) and automatically performs rollover, shrink, delete and other operations on matching indices.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "ILM策略包含 phases（hot/warm/cold/delete 等），将按索引匹配策略自动执行滚动、缩减、删除等操作"
+  },
+  "dtxpK2": {
+    "message": "Analyze",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Analyze.tsx"
+      ],
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "分词"
+  },
+  "UVbQQs": {
+    "message": "Analyzer",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "分析器"
+  },
+  "budvfl": {
+    "message": "Are you sure you want to delete document {id}?",
+    "placeholders": {
+      "id": [
+        "id"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "确定要删除文档 {id} 吗？"
+  },
+  "CcI1oi": {
+    "message": "Are you sure you want to delete documents matching the query in index {index}? Deletion runs asynchronously and is irreversible!",
+    "placeholders": {
+      "index": [
+        "index"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "确定要按查询条件删除索引 {index} 中的文档吗？删除将在后台异步执行，不可恢复！"
+  },
+  "LWVWaK": {
+    "message": "Are you sure you want to delete ILM policy \"{policyId}\"? Indices using it will no longer be lifecycle-managed.",
+    "placeholders": {
+      "policyId": [
+        "policyId"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "确定要删除ILM策略「{policyId}」吗？正在使用该策略的索引将不再受生命周期管理。"
+  },
+  "xVEs+n": {
+    "message": "Are you sure you want to delete index {name}?",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "确定要删除索引 {name} 吗？"
+  },
+  "dI2Zus": {
+    "message": "Are you sure you want to delete indices {names}?",
+    "placeholders": {
+      "names": [
+        "names"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "确定要删除索引 {names} 吗？"
+  },
+  "5UiFJn": {
+    "message": "Are you sure you want to delete SLM policy \"{policyId}\"? Existing snapshots won't be deleted.",
+    "placeholders": {
+      "policyId": [
+        "policyId"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "确定要删除自动快照策略「{policyId}」吗？已创建的快照不会被删除。"
+  },
+  "TdCI4B": {
+    "message": "Are you sure you want to delete snapshot \"{snap}\" from repository \"{repo}\"? This operation is irreversible.",
+    "placeholders": {
+      "snap": [
+        "snap"
+      ],
+      "repo": [
+        "repo"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "确定要删除仓库「{repo}」中的快照「{snap}」吗？此操作不可逆。"
+  },
+  "kIP8Ig": {
+    "message": "Are you sure you want to delete snapshot repository \"{name}\"? Existing snapshot data files won't be deleted, but the repository registration will be removed from the ES cluster.",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "确定要删除快照仓库「{name}」吗？这不会删除仓库中已有的快照数据文件，但会从ES集群中移除此仓库的注册信息。"
+  },
+  "qry4kg": {
+    "message": "Are you sure you want to delete template \"{name}\"?",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "确定要删除模板「{name}」吗？"
+  },
+  "xvLbOg": {
+    "message": "Are you sure you want to delete?",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "确定删除吗？"
+  },
+  "H/oo6B": {
+    "message": "Are you sure you want to immediately execute policy \"{policyId}\" to create a snapshot?",
+    "placeholders": {
+      "policyId": [
+        "policyId"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "确定要立即执行策略「{policyId}」创建一个快照吗？"
+  },
+  "+WOroB": {
+    "message": "Are you sure you want to merge segments for index {name}? Merging is very resource-intensive and will be submitted to ES backend.",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "确定要对索引 {name} 执行 段合并 吗？段合并非常耗资源，将提交给ES后台执行"
+  },
+  "DEvWhJ": {
+    "message": "Are you sure you want to remove alias {alias}?",
+    "placeholders": {
+      "alias": [
+        "alias"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "确定要移除别名 {alias} 吗？"
+  },
+  "+fJJG7": {
+    "message": "Backup successful",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "备份成功"
+  },
+  "LKTNVR": {
+    "message": "Batch Actions",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "批量操作"
+  },
+  "lTIVYl": {
+    "message": "Bool Compound Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Bool复合查询"
+  },
+  "O2UpM1": {
+    "message": "Browse",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "文档浏览"
+  },
+  "juYOjP": {
+    "message": "Browse, edit, import documents and field statistics",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "浏览、编辑、导入文档，字段统计"
+  },
+  "000Kz2": {
+    "message": "CA Certificate",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "CA 证书"
+  },
+  "G39zBp": {
+    "message": "Cache",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "缓存"
+  },
+  "zGqos5": {
+    "message": "Cache Details",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "缓存详情"
+  },
+  "dEgA5A": {
+    "message": "Cancel",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/utils/feedback.tsx"
+      ]
+    ],
+    "translation": "取消"
+  },
+  "5eKLce": {
+    "message": "Cancellable",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "是否可取消"
+  },
+  "39hdMQ": {
+    "message": "Cannot connect to GitHub, check update failed",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "无法连接github，检查更新失败"
+  },
+  "QXnnUA": {
+    "message": "Cardinality Aggregation",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Cardinality聚合"
+  },
+  "fR2Ds4": {
+    "message": "Cardinality: {count}",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "基数（去重数量）：{count}"
+  },
+  "xCJdfg": {
+    "message": "Clear",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "清空"
+  },
+  "ywTNGo": {
+    "message": "Clear Cache",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "清理缓存"
+  },
+  "7t/TSg": {
+    "message": "Clear results",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "清空结果"
+  },
+  "yz7wBu": {
+    "message": "Close",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "关闭"
+  },
+  "SN7KfP": {
+    "message": "Close Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "关闭索引"
+  },
+  "M3GuNX": {
+    "message": "Cluster",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "集群"
+  },
+  "JeYC0M": {
+    "message": "Cluster health",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "集群健康"
+  },
+  "dNpIsG": {
+    "message": "Cluster health status (green, yellow, red)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "集群健康状态（绿色、黄色、红色）"
+  },
+  "glO66V": {
+    "message": "Cluster name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "集群名称"
+  },
+  "Rb3s07": {
+    "message": "Cluster-wide Sampling Warning",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "全集群采样风险提示"
+  },
+  "YioPHN": {
+    "message": "Cluster: {name}",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "集群名：{name}"
+  },
+  "3nO7Gx": {
+    "message": "Component Templates",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "组件模板"
+  },
+  "7f4TcH": {
+    "message": "Composed Of",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "组合组件"
+  },
+  "7VpPHA": {
+    "message": "Confirm",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/utils/feedback.tsx"
+      ]
+    ],
+    "translation": "确定"
+  },
+  "QHcLEN": {
+    "message": "Connected",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "当前连接"
+  },
+  "J28zul": {
+    "message": "Connecting...",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Health.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "连接中..."
+  },
+  "DAyltC": {
+    "message": "Connection failed: {res}",
+    "placeholders": {
+      "res": [
+        "res"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "连接失败：{res}"
+  },
+  "etXfkU": {
+    "message": "Connection successful",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "连接成功"
+  },
+  "9sj0G8": {
+    "message": "Copy failed",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "复制失败"
+  },
+  "uAzYKl": {
+    "message": "Copy result",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "复制结果"
+  },
+  "ePYZBv": {
+    "message": "CPU Load",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "CPU负载"
+  },
+  "IVZial": {
+    "message": "CPU Load (5m)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "CPU负载(5m)"
+  },
+  "nfiMUk": {
+    "message": "Create ILM Policy",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "创建ILM策略"
+  },
+  "c1pf0t": {
+    "message": "Create Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "创建索引"
+  },
+  "NvqKnP": {
+    "message": "Create Policy",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "创建策略"
+  },
+  "5NaQxB": {
+    "message": "Create Repository",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "创建仓库"
+  },
+  "EQ34wv": {
+    "message": "Create Snapshot",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "创建快照"
+  },
+  "s7XwOU": {
+    "message": "Create Template",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "创建模板"
+  },
+  "i4Wnp+": {
+    "message": "CSV file exported successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "CSV 文件导出成功"
+  },
+  "z3UACQ": {
+    "message": "CSV requires a header row and at least one data row",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "CSV 至少需要表头和一行数据"
+  },
+  "IFjFN4": {
+    "message": "Current cluster: [{name}]",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "当前集群：【{name}】"
+  },
+  "IedKSJ": {
+    "message": "Data copy will run asynchronously in the background. Check progress on the Task page.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "数据复制将在后台异步执行，可在 Task 页查看进度"
+  },
+  "PWJtmq": {
+    "message": "Date Histogram Aggregation",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Date Histogram聚合"
+  },
+  "cnGeoo": {
+    "message": "Delete",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "删除"
+  },
+  "Wvr2ZZ": {
+    "message": "Delete by Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "按查询删除"
+  },
+  "ysL95e": {
+    "message": "Delete by query requires a query condition to prevent accidental full deletion",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "按查询删除必须先输入查询条件，防止误删全量数据"
+  },
+  "o3tP/A": {
+    "message": "Delete Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "删除索引"
+  },
+  "8BXP90": {
+    "message": "Delete task submitted (async)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "删除任务已提交（异步执行）"
+  },
+  "xwYwYs": {
+    "message": "Deleted Docs",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "软删除文档"
+  },
+  "Nu4oKW": {
+    "message": "Description",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ]
+    ],
+    "translation": "说明"
+  },
+  "rfoPGr": {
+    "message": "Destination Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "目标索引"
+  },
+  "Bzn0RL": {
+    "message": "Destination index name (may not exist yet)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "目标索引名称（可以不存在）"
+  },
+  "URmyfc": {
+    "message": "Details",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "详情"
+  },
+  "DP0cra": {
+    "message": "Dev Tools",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "开发工具"
+  },
+  "Oe+G6M": {
+    "message": "Diagnose",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "诊断"
+  },
+  "gMnhTK": {
+    "message": "Disk Usage",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "磁盘使用率"
+  },
+  "JHHvFS": {
+    "message": "Disk Usage (%)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "磁盘使用率(%)"
+  },
+  "7NL+7g": {
+    "message": "Doc Count",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "文档总数"
+  },
+  "TbjyhA": {
+    "message": "Docs",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ]
+    ],
+    "translation": "文档"
+  },
+  "kbjghE": {
+    "message": "Document {id} deleted",
+    "placeholders": {
+      "id": [
+        "id"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "文档 {id} 已删除"
+  },
+  "A+TsK9": {
+    "message": "Document added successfully, id: {id}",
+    "placeholders": {
+      "id": [
+        "id"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "文档添加成功，id：{id}"
+  },
+  "CTu0j+": {
+    "message": "Document Content",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "文档内容"
+  },
+  "CN6yJW": {
+    "message": "Document content is not valid JSON",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "文档内容不是合法的JSON"
+  },
+  "NB9et5": {
+    "message": "Document data must be a JSON array",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "文档数据必须是JSON数组"
+  },
+  "ZFLYVu": {
+    "message": "Document saved successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "文档保存成功"
+  },
+  "E/muDO": {
+    "message": "Documents",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "文档"
+  },
+  "mRvhOV": {
+    "message": "Download Now",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "立即下载"
+  },
+  "ePK91l": {
+    "message": "Edit",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "编辑"
+  },
+  "X8x8v5": {
+    "message": "Edit Connection",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "编辑连接"
+  },
+  "MGINip": {
+    "message": "Edit Mapping",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "编辑 Mapping"
+  },
+  "C/TBiI": {
+    "message": "Edit Settings",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "编辑 Settings"
+  },
+  "rAx5u1": {
+    "message": "End Time",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "结束时间"
+  },
+  "lYGfRP": {
+    "message": "English",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "English"
+  },
+  "hzUtpO": {
+    "message": "Enter a JSON array where each element is a document",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "输入 JSON 数组，每个元素是一条文档"
+  },
+  "3QRjMa": {
+    "message": "Enter CA certificate content",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "输入 CA 证书内容"
+  },
+  "UV9Kbd": {
+    "message": "Enter index name to backup",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "输入要备份的索引名称"
+  },
+  "FYa2Je": {
+    "message": "Enter node name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "输入节点名称"
+  },
+  "f7sXvi": {
+    "message": "Enter password",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "输入密码"
+  },
+  "AMhB1z": {
+    "message": "Enter protocol://host:port",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "输入协议://主机:端口"
+  },
+  "mLAofx": {
+    "message": "Enter query DSL, leave empty for all",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "输入查询dsl，不写默认查询所有"
+  },
+  "7HnfK/": {
+    "message": "Enter REST API path starting with /; use POST for queries; GET does not carry body",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "输入rest api，以/开头；查询请用POST请求；GET不会携带body"
+  },
+  "CM4DUJ": {
+    "message": "Enter text to analyze, press Enter to run",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "输入要分词的文本，回车执行"
+  },
+  "WLnvCZ": {
+    "message": "Enter username",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "输入用户名"
+  },
+  "DE8+yF": {
+    "message": "ES DSL Query Examples",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "ES DSL查询示例"
+  },
+  "LVhoWW": {
+    "message": "ES Query Examples",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "ES查询示例"
+  },
+  "hFthoo": {
+    "message": "Examples",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "示例"
+  },
+  "ZC2VJP": {
+    "message": "Execute",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "执行"
+  },
+  "0Wv5II": {
+    "message": "Exists Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Exists查询"
+  },
+  "vzH+7Z": {
+    "message": "Explain",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "分配解释"
+  },
+  "8WzYjX": {
+    "message": "Explain Unassigned",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "解释未分配分片"
+  },
+  "GS+Mus": {
+    "message": "Export",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "导出配置"
+  },
+  "67N/ir": {
+    "message": "Export connections",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "导出连接配置"
+  },
+  "2KAI4N": {
+    "message": "Export CSV",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "导出为csv"
+  },
+  "i3pIbG": {
+    "message": "Export failed: {0}",
+    "placeholders": {
+      "0": [
+        "(e as Error).message"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "导出失败：{0}"
+  },
+  "xNnPJV": {
+    "message": "Export Result",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "导出结果"
+  },
+  "v7l4Ls": {
+    "message": "Exported {count} connections",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "已导出 {count} 个连接"
+  },
+  "vTZyqL": {
+    "message": "Failed to read file",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "文件读取失败"
+  },
+  "fPsChh": {
+    "message": "Failed to save query: {msg}",
+    "placeholders": {
+      "msg": [
+        "msg"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "保存查询失败：{msg}"
+  },
+  "AXjA78": {
+    "message": "Field",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "字段名"
+  },
+  "UHNq2J": {
+    "message": "Field Stats",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "字段统计"
+  },
+  "5FD1aN": {
+    "message": "File loaded: {name}",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "已读取文件：{name}"
+  },
+  "P5bAst": {
+    "message": "Fill Sample Template",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "填入示例模板"
+  },
+  "9hSa1c": {
+    "message": "Filter (optional, query clause JSON)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "过滤条件（可选，查询子句JSON）"
+  },
+  "bBIKjS": {
+    "message": "Filter by index (supports *)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "输入索引名称（支持通配符 *）"
+  },
+  "U6uF0J": {
+    "message": "Filter by pool/node name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "按线程池/节点名过滤"
+  },
+  "u/NqE3": {
+    "message": "Filter by state",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "按状态过滤"
+  },
+  "L7n1vq": {
+    "message": "Flush",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Flush"
+  },
+  "5ppr76": {
+    "message": "From Template",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "从模板创建"
+  },
+  "4bSfyP": {
+    "message": "FS",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "FS"
+  },
+  "2+KutH": {
+    "message": "Full Key",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "完整键"
+  },
+  "rEjgAu": {
+    "message": "Fuzzy search index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "模糊搜索索引"
+  },
+  "UPqS9C": {
+    "message": "Health",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Health.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "健康"
+  },
+  "jxsuva": {
+    "message": "Health Metrics",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "健康指标"
+  },
+  "WOYhNS": {
+    "message": "Health: {status}",
+    "placeholders": {
+      "status": [
+        "status"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "健康：{status}"
+  },
+  "dTA/LS": {
+    "message": "Heap Max",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "堆内存上限"
+  },
+  "HYTL1Q": {
+    "message": "Heap Usage",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "堆内存使用率"
+  },
+  "8ki6E9": {
+    "message": "Heap Usage (%)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "堆内存使用率(%)"
+  },
+  "217gko": {
+    "message": "Heap Used",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "堆内存已用"
+  },
+  "0caMy7": {
+    "message": "History",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ],
+      [
+        "src/components/DevTool.tsx"
+      ],
+      [
+        "src/components/Rest.tsx"
+      ],
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "历史记录"
+  },
+  "i0qMbr": {
+    "message": "Home",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "主页"
+  },
+  "T7AIOX": {
+    "message": "Hot Threads",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "热点线程"
+  },
+  "TXcQaf": {
+    "message": "ILM policy created successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "ILM 策略创建成功"
+  },
+  "5yBAIs": {
+    "message": "ILM policy deleted",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "ILM 策略已删除"
+  },
+  "l3s5ri": {
+    "message": "Import",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "导入配置"
+  },
+  "HHafvN": {
+    "message": "Import finished: {success} succeeded, {failed} failed. First error: {msg}",
+    "placeholders": {
+      "success": [
+        "success"
+      ],
+      "failed": [
+        "failed"
+      ],
+      "msg": [
+        "msg"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "导入完成：成功 {success} 条，失败 {failed} 条，首个错误：{msg}"
+  },
+  "7Xpzwm": {
+    "message": "Include Global State",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "包含全局状态"
+  },
+  "kpHio7": {
+    "message": "Include passwords",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "包含密码"
+  },
+  "Cp8xZT": {
+    "message": "Include passwords in the export file? Keep the file safe if passwords are included.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "是否在导出文件中包含密码？包含密码的文件请妥善保管。"
+  },
+  "TBAtvr": {
+    "message": "Incorrect group number, please check on GitHub",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "群号错误，请在github上查看"
+  },
+  "EIrE3l": {
+    "message": "Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Analyze.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "索引"
+  },
+  "rG0oRA": {
+    "message": "Index [{name}] created successfully",
+    "placeholders": {
+      "name": [
+        "name"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "索引【{name}】创建成功"
+  },
+  "6U3L7j": {
+    "message": "Index Backup (Preview)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "索引备份（预览）"
+  },
+  "nETsA9": {
+    "message": "Index mapping",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "索引 mapping"
+  },
+  "XyDlLX": {
+    "message": "Index Name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "索引名称"
+  },
+  "TfPHvX": {
+    "message": "Index Patterns",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "匹配模式"
+  },
+  "Ebbq8l": {
+    "message": "Index Templates",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "索引模板"
+  },
+  "e6Lu1A": {
+    "message": "index-list.csv",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "索引列表.csv"
+  },
+  "veRhbW": {
+    "message": "Indices",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "索引"
+  },
+  "H13aTu": {
+    "message": "Indices (comma separated)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "索引（逗号分隔）"
+  },
+  "Sqihjf": {
+    "message": "Indices In Use",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "应用索引"
+  },
+  "S8Yqbl": {
+    "message": "Insert",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "插入"
+  },
+  "nmLAQm": {
+    "message": "Insert example request",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "插入示例请求"
+  },
+  "R/wIYV": {
+    "message": "Insert Order",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "插入顺序"
+  },
+  "d+w5zz": {
+    "message": "Invalid file: please select a connections JSON exported from ES-King",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "文件格式不正确，请选择 ES-King 导出的连接配置 JSON 文件"
+  },
+  "XDWu5B": {
+    "message": "IP",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "IP"
+  },
+  "7sMeHQ": {
+    "message": "Key",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ]
+    ],
+    "translation": "key"
+  },
+  "vXIe7J": {
+    "message": "Language",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "语言"
+  },
+  "hT6IOu": {
+    "message": "Last Failure",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "最近失败"
+  },
+  "TKxZhG": {
+    "message": "Last Success",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "最近成功"
+  },
+  "u0sybf": {
+    "message": "Leave empty for all indices",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "留空表示所有索引"
+  },
+  "D6i/hG": {
+    "message": "Lifecycle (ILM)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "生命周期 (ILM)"
+  },
+  "KHZ3Le": {
+    "message": "List indices",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "索引列表"
+  },
+  "k4N7o+": {
+    "message": "Manage Aliases",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "管理别名"
+  },
+  "0ps6SP": {
+    "message": "Manage index templates and component templates",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "索引模板与组件模板管理"
+  },
+  "qMZJiA": {
+    "message": "mapping",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "mapping"
+  },
+  "jbdUyb": {
+    "message": "Mapping is not valid JSON",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "mapping不是合法的json格式"
+  },
+  "tSZLIu": {
+    "message": "Mapping saved successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Mapping 保存成功"
+  },
+  "c2mIj2": {
+    "message": "Match Phrase Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Match Phrase查询"
+  },
+  "G+SzyV": {
+    "message": "Match Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Match查询"
+  },
+  "Xja49f": {
+    "message": "Max task waiting time in queue (ms)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "任务在队列中的最长等待时间（毫秒）"
+  },
+  "v8o+Rn": {
+    "message": "Memory",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ]
+    ],
+    "translation": "内存"
+  },
+  "UODtG8": {
+    "message": "Merge",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "合并"
+  },
+  "W4bsEz": {
+    "message": "Merge request submitted. Merging is I/O intensive, please monitor cluster load.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "已提交段合并请求，段合并是重IO任务，请注意集群负载"
+  },
+  "6t8PX6": {
+    "message": "Merge Segments",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "段合并"
+  },
+  "VXFjd8": {
+    "message": "Metrics",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Core.tsx"
+      ]
+    ],
+    "translation": "指标"
+  },
+  "q2NaFP": {
+    "message": "Metrics Aggregation",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Metrics聚合"
+  },
+  "kuTdnb": {
+    "message": "Modified At",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "修改时间"
+  },
+  "bv3o2/": {
+    "message": "Multi-match Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Multi-match查询"
+  },
+  "At9xzI": {
+    "message": "Multiple requests in one editor, separated by # lines",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "同一个编辑器里可写多个请求，用 # 开头的行分隔"
+  },
+  "6YtxFj": {
+    "message": "Name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "节点名"
+  },
+  "VrEUBx": {
+    "message": "name,age,city\nAlice,20,Beijing\nBob,25,Shanghai",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "name,age,city\n张三,20,北京\n李四,25,上海"
+  },
+  "Y9vT+p": {
+    "message": "Nested Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Nested查询"
+  },
+  "csG78g": {
+    "message": "New Alias",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "新别名"
+  },
+  "dM+qQC": {
+    "message": "New version found: {tag}",
+    "placeholders": {
+      "tag": [
+        "tag"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Header.tsx"
+      ]
+    ],
+    "translation": "发现新版本 {tag}"
+  },
+  "hXzOVo": {
+    "message": "Next",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "下一页"
+  },
+  "WwKMiy": {
+    "message": "Next Execution",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "下次执行"
+  },
+  "4hfTrB": {
+    "message": "Nickname",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "昵称"
+  },
+  "1UzENP": {
+    "message": "No",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "否"
+  },
+  "fegUya": {
+    "message": "No aliases",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "暂无别名"
+  },
+  "w5xu1p": {
+    "message": "No connections to export",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "暂无可导出的连接"
+  },
+  "plhHQt": {
+    "message": "No data",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "暂无数据"
+  },
+  "8Vj6Q/": {
+    "message": "No data to export",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "没有数据可以导出"
+  },
+  "flmDTf": {
+    "message": "No description",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "暂无说明"
+  },
+  "Ta25TG": {
+    "message": "No history yet",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "暂无历史记录"
+  },
+  "e6LhL+": {
+    "message": "No index is specified. This will query all physical shards across the entire cluster. In large clusters (tens of thousands of shards), this requests the Master node to serialize the full routing table and may cause temporary Master load spikes. Are you sure you want to proceed?",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "当前未指定索引名，将全量拉取全集群所有物理分片。在大型集群（如数万至数十万分片）中，该操作将请求 Master 节点序列化完整路由表，可能引起短时间 Master 负载上升，确定要继续全量查询吗？"
+  },
+  "fqDoLg": {
+    "message": "No matched history",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "没有匹配的历史记录"
+  },
+  "60eoC8": {
+    "message": "No request found, write one like: GET /_cluster/health",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ],
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "未找到请求，请按此格式书写：GET /_cluster/health"
+  },
+  "ljGIqZ": {
+    "message": "No request parsed yet. Format: METHOD /path, an optional JSON body on the following lines, requests separated by # lines.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "尚未解析到请求。格式：METHOD /path，其后若干行是可选 JSON body，请求之间用 # 开头的行分隔。"
+  },
+  "wpEPT9": {
+    "message": "No specific node is selected. This will trigger JVM hot thread sampling across ALL nodes simultaneously. In large clusters, this adds CPU sampling pressure to every node and may take a while. Are you sure you want to proceed?",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "您当前未指定具体节点，即将对全集群【所有节点】同时发起热点线程采样。在大型集群中，这会对所有节点同时施加 JVM 栈采集压力并可能耗时较长，确定继续吗？"
+  },
+  "wZDHmg": {
+    "message": "No tokens produced",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "没有产生任何分词"
+  },
+  "DgA1yv": {
+    "message": "No unassigned shards currently",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "当前没有未分配的分片"
+  },
+  "Ky08YO": {
+    "message": "No valid connections in the file (missing name or host)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "文件中没有有效的连接（缺少名称或主机地址）"
+  },
+  "Ah7JCB": {
+    "message": "Node",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "节点"
+  },
+  "3wmyrL": {
+    "message": "Nodes",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "节点"
+  },
+  "t1PEw/": {
+    "message": "Not executed yet",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "尚未执行"
+  },
+  "cewhyx": {
+    "message": "Number of active primary shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "活跃的主分片数"
+  },
+  "KTZuQ6": {
+    "message": "Number of active total shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "活跃的总分片数"
+  },
+  "evGuWQ": {
+    "message": "Number of data nodes in the cluster",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "集群中的数据节点数"
+  },
+  "a40Mlt": {
+    "message": "Number of delayed unassigned shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "延迟未分配的分片数"
+  },
+  "hRhyLF": {
+    "message": "Number of in-flight shard fetches",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "正在进行的分片数据获取数"
+  },
+  "M6O9Bo": {
+    "message": "Number of nodes in the cluster",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "集群中的节点数"
+  },
+  "HCOg7H": {
+    "message": "Number of pending cluster-level tasks",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "等待中的集群级任务数"
+  },
+  "ONdaOP": {
+    "message": "Number of Replicas",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "副本数量"
+  },
+  "HjSE+5": {
+    "message": "Number of shards being initialized",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "正在初始化的分片数"
+  },
+  "U0axqz": {
+    "message": "Number of shards being relocated",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "正在重新定位的分片数"
+  },
+  "oOFjLZ": {
+    "message": "Number of unassigned shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "未分配的分片数"
+  },
+  "x96j/s": {
+    "message": "Only dynamically updatable settings are supported (e.g. number_of_replicas, refresh_interval)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "仅支持动态可更新的设置（如 number_of_replicas、refresh_interval）"
+  },
+  "tVfKl8": {
+    "message": "Open Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "打开索引"
+  },
+  "/fUM3P": {
+    "message": "Parent Task ID",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "父任务id"
+  },
+  "6oRT8t": {
+    "message": "Parse failed: {msg}",
+    "placeholders": {
+      "msg": [
+        "msg"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "解析失败：{msg}"
+  },
+  "8ZsakT": {
+    "message": "Password",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "密码"
+  },
+  "sOEpG4": {
+    "message": "Pending Tasks",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "挂起任务"
+  },
+  "/Bh+7r": {
+    "message": "Performance",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "性能指标"
+  },
+  "sic/rL": {
+    "message": "Phases",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "阶段"
+  },
+  "phXYw3": {
+    "message": "Please enter a field name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "请输入字段名"
+  },
+  "HxNb9S": {
+    "message": "Please enter an alias",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "请输入别名"
+  },
+  "btY6VW": {
+    "message": "Please enter document content",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "请输入文档内容"
+  },
+  "c2pDbi": {
+    "message": "Please enter text to analyze",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "请输入要分析的文本"
+  },
+  "DVRKhA": {
+    "message": "Please enter the destination index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "请输入目标索引"
+  },
+  "PJFONL": {
+    "message": "Please enter the template name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "请输入模板名称"
+  },
+  "wwrAsK": {
+    "message": "Please fill in all required fields",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "请填写所有必填字段"
+  },
+  "/86ws4": {
+    "message": "Please fill in the index name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "请填写索引名"
+  },
+  "cwaR30": {
+    "message": "Please fill in the policy ID and policy content",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "请填写策略ID和策略内容"
+  },
+  "X8WRnN": {
+    "message": "Please provide an analyzer or a field",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "请填写分析器或字段"
+  },
+  "AgGVph": {
+    "message": "Please select a repository and snapshot",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "请选择仓库和快照"
+  },
+  "MzYyyo": {
+    "message": "Please select an index first",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "请先选择索引"
+  },
+  "N0z/TR": {
+    "message": "Policy (JSON)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "策略内容（JSON）"
+  },
+  "XggIho": {
+    "message": "Policy deleted",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "策略已删除"
+  },
+  "5Z0UuG": {
+    "message": "Policy executed, snapshot is being created",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "策略已触发执行，快照正在创建"
+  },
+  "66N4vt": {
+    "message": "Policy ID",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "策略ID"
+  },
+  "ou6PkF": {
+    "message": "Pool",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "线程池"
+  },
+  "PvprFB": {
+    "message": "Prev",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "上一页"
+  },
+  "T/R+Qz": {
+    "message": "Primary",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "主分片"
+  },
+  "MkRMc+": {
+    "message": "Primary Shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "主分片"
+  },
+  "1hKEom": {
+    "message": "Priority",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "优先级"
+  },
+  "1B9XX0": {
+    "message": "Process",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "进程"
+  },
+  "6FimJy": {
+    "message": "ProcessInfo",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "ProcessInfo"
+  },
+  "CP3D8G": {
+    "message": "Progress",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "进度"
+  },
+  "vfH+gE": {
+    "message": "Protocol://Host:Port",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "协议://主机:端口"
+  },
+  "ZiE8s3": {
+    "message": "Query All Shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "查询全量分片"
+  },
+  "zaPHfb": {
+    "message": "Query All Shards Warning",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "全量查询分片风险提示"
+  },
+  "WgMQoJ": {
+    "message": "Query DSL (optional), e.g. {\"term\":{\"status\":\"active\"}}",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "查询DSL（可选），如 {\"term\":{\"status\":\"active\"}}"
+  },
+  "01Fp7d": {
+    "message": "Query DSL (optional), e.g. {\"term\":{\"status\":\"active\"}}. Leave empty to match all",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "输入查询DSL（可选），如 {\"term\":{\"status\":\"active\"}}，留空查询全部"
+  },
+  "ta7yVO": {
+    "message": "Query DSL is not valid JSON",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "查询DSL不是合法的JSON"
+  },
+  "b24kPi": {
+    "message": "Queue",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "队列"
+  },
+  "qi/KXe": {
+    "message": "Range Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Range查询"
+  },
+  "TW3ZtU": {
+    "message": "Read Aliases",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "读取别名"
+  },
+  "lCF0wC": {
+    "message": "Refresh",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Health.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "刷新"
+  },
+  "lPQ/Me": {
+    "message": "Refresh index list",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "刷新索引列表"
+  },
+  "dwkvt1": {
+    "message": "Reindex",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Reindex"
+  },
+  "xjiXOY": {
+    "message": "Reindex Data",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Reindex 复制数据"
+  },
+  "LCG3wd": {
+    "message": "Reindex task submitted (async)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Reindex 任务已提交（异步执行）"
+  },
+  "ekCRTP": {
+    "message": "Rejected",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "拒绝"
+  },
+  "KCIwRk": {
+    "message": "Replica",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "副本"
+  },
+  "IreQBq": {
+    "message": "Repository",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "仓库管理"
+  },
+  "wXTcRB": {
+    "message": "Repository created successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "仓库创建成功"
+  },
+  "use7UA": {
+    "message": "Repository deleted",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "仓库已删除"
+  },
+  "6reDaH": {
+    "message": "Repository Name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "仓库名称"
+  },
+  "LRUiVk": {
+    "message": "Repository Type",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "仓库类型"
+  },
+  "rDowPb": {
+    "message": "Repository verified, all nodes can access",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "仓库验证通过，所有节点可访问"
+  },
+  "YRhgrW": {
+    "message": "Request Body",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "请求body"
+  },
+  "PWfg7v": {
+    "message": "Requests",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "请求数"
+  },
+  "ZpLEZY": {
+    "message": "Reset editor",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "重置编辑器"
+  },
+  "WHiaOl": {
+    "message": "REST",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "REST"
+  },
+  "yKu/3Y": {
+    "message": "Restore",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "快照恢复"
+  },
+  "hMd3q8": {
+    "message": "Restore task submitted (async), please check restore progress",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "恢复任务已提交（异步执行），请查看恢复进度"
+  },
+  "RD6AE9": {
+    "message": "Result",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "结果"
+  },
+  "GDvlUT": {
+    "message": "Role",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "主/副"
+  },
+  "5dJK4M": {
+    "message": "Roles",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "角色"
+  },
+  "RPdYIv": {
+    "message": "Rows {from}-{to} of {total}",
+    "placeholders": {
+      "from": [
+        "from"
+      ],
+      "to": [
+        "to"
+      ],
+      "total": [
+        "total"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "第 {from}-{to} 条，共 {total} 条"
+  },
+  "3JjdaA": {
+    "message": "Run",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "执行"
+  },
+  "Lhgi/Z": {
+    "message": "Run all",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "全部执行"
+  },
+  "gupfXO": {
+    "message": "Run every request in order (Ctrl/Cmd + Shift + Enter)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "按顺序执行所有请求（Ctrl/Cmd + Shift + Enter）"
+  },
+  "2ukA05": {
+    "message": "Run the request under the cursor (Ctrl/Cmd + Enter)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "执行光标所在的请求（Ctrl/Cmd + Enter）"
+  },
+  "eWHc40": {
+    "message": "Run this request",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "执行此请求"
+  },
+  "mwIC8k": {
+    "message": "Run Time",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "运行时间"
+  },
+  "tfDRzk": {
+    "message": "Save",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "保存"
+  },
+  "XpLnbk": {
+    "message": "Save failed: {err}",
+    "placeholders": {
+      "err": [
+        "err"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "保存失败：{err}"
+  },
+  "uB85T3": {
+    "message": "Save failed: {msg}",
+    "placeholders": {
+      "msg": [
+        "msg"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "保存失败：{msg}"
+  },
+  "UGT5vp": {
+    "message": "Save Settings",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "保存设置"
+  },
+  "OFqAkw": {
+    "message": "Saved successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Conn.tsx"
+      ],
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "保存成功"
+  },
+  "gmB6oO": {
+    "message": "Schedule",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "调度计划"
+  },
+  "mqlnas": {
+    "message": "Script Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Script查询"
+  },
+  "A1taO8": {
+    "message": "Search",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "搜索"
+  },
+  "VJp32f": {
+    "message": "Search history by method, path, or body",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "按方法、路径或请求体搜索历史"
+  },
+  "Xtv235": {
+    "message": "Search history by method, path, or DSL",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "搜索历史记录，同时支持method、path、dsl"
+  },
+  "6GAEQW": {
+    "message": "Search request",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "搜索请求"
+  },
+  "1ZTiaz": {
+    "message": "Segments",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "段"
+  },
+  "a2jh07": {
+    "message": "Select an index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "选择索引"
+  },
+  "roa1AY": {
+    "message": "Select an index (optional, to test field analyzer)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "选择索引（可选，可测字段分词）"
+  },
+  "cZHtsg": {
+    "message": "Select an index template (optional)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "选择索引模板（可选）"
+  },
+  "SlaSb0": {
+    "message": "Select Local File",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "选择本地文件"
+  },
+  "Vw/yUH": {
+    "message": "Select node (recommended)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "选择节点（推荐单节点采样）"
+  },
+  "tOND78": {
+    "message": "Select snapshot to restore",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "选择要恢复的快照"
+  },
+  "R7b71d": {
+    "message": "Select target repository",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "选择目标仓库"
+  },
+  "JlFcis": {
+    "message": "Send",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Send"
+  },
+  "Tz0i8g": {
+    "message": "Settings",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Settings.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "设置"
+  },
+  "nzzoN2": {
+    "message": "Settings (JSON)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "Settings (JSON)"
+  },
+  "q8j6QE": {
+    "message": "Settings are not valid JSON",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "settings不是合法的json格式"
+  },
+  "gjNQhe": {
+    "message": "Settings saved successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "Settings 保存成功"
+  },
+  "+OoySt": {
+    "message": "Shard",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "分片"
+  },
+  "y85BTe": {
+    "message": "Shard Allocation Explain",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "分片分配解释"
+  },
+  "6tyH1j": {
+    "message": "Shard distribution, thread pools, hot threads, pending tasks",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "分片分布、线程池、热点线程、挂起任务"
+  },
+  "jXmyW/": {
+    "message": "Shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "分片"
+  },
+  "k1H3Y/": {
+    "message": "Shards allocation",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/DevTool.tsx"
+      ]
+    ],
+    "translation": "分片分配"
+  },
+  "Cj2Gtd": {
+    "message": "Size",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "大小"
+  },
+  "TcnOLX": {
+    "message": "Skip SSL Verify",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "跳过 SSL 验证"
+  },
+  "Zx5gyx": {
+    "message": "SLM Policy",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "自动策略 (SLM)"
+  },
+  "gOfZO7": {
+    "message": "SLM policy created successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "SLM 策略创建成功"
+  },
+  "yTZe+y": {
+    "message": "Snapshot",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "快照"
+  },
+  "2G2Bmc": {
+    "message": "Snapshot creation started (async), please refresh to check status",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "快照开始创建（异步），请稍后刷新查看状态"
+  },
+  "kldJg2": {
+    "message": "Snapshot deleted",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "快照已删除"
+  },
+  "kjPVYR": {
+    "message": "Snapshot Management",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "快照管理"
+  },
+  "Kq2FJy": {
+    "message": "Snapshot Name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "快照名称"
+  },
+  "APHa4R": {
+    "message": "Snapshot Name Template",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "快照名称模板"
+  },
+  "OZ1mP3": {
+    "message": "Snapshot will be created asynchronously in the background. Check the snapshot list for progress.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "快照将在后台异步创建，可在快照列表中查看进度。"
+  },
+  "QXs8/8": {
+    "message": "Snapshots",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "快照管理"
+  },
+  "z6szsi": {
+    "message": "Source Index",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "源索引"
+  },
+  "U1OD/h": {
+    "message": "Source Node",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "源节点"
+  },
+  "3PRxO3": {
+    "message": "Stage",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "阶段"
+  },
+  "AVgEIa": {
+    "message": "standard / ik_max_word / ...",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "standard / ik_max_word / …"
+  },
+  "0c+2gN": {
+    "message": "Start Download",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "开始下载"
+  },
+  "odeIN7": {
+    "message": "Start Import",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "开始导入"
+  },
+  "TbxUp8": {
+    "message": "Start Sampling",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "开始采样"
+  },
+  "1PQRWr": {
+    "message": "Start Time",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "开始时间"
+  },
+  "RS0o7b": {
+    "message": "State",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "状态"
+  },
+  "uAQUqI": {
+    "message": "Status",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "状态"
+  },
+  "BrrIs8": {
+    "message": "Storage",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ]
+    ],
+    "translation": "存储"
+  },
+  "W2To5U": {
+    "message": "Store Size",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "占用存储"
+  },
+  "bX9sp+": {
+    "message": "Store Used",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "已用空间"
+  },
+  "5pIVql": {
+    "message": "Successful Shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "成功分片"
+  },
+  "tKq/wg": {
+    "message": "Successfully deleted {count} indices",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "成功删除 {count} 个索引"
+  },
+  "yBH9nD": {
+    "message": "Successfully imported {count} documents",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "成功导入 {count} 条文档"
+  },
+  "D+NlUC": {
+    "message": "System",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "系统指标"
+  },
+  "8x9Qq9": {
+    "message": "Table View",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "表格视图"
+  },
+  "xTH5bA": {
+    "message": "Target Node",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "目标节点"
+  },
+  "YgxM31": {
+    "message": "Task ID",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "任务ID"
+  },
+  "vkT6rL": {
+    "message": "task-list.csv",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "任务列表.csv"
+  },
+  "GtycJ/": {
+    "message": "Tasks",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "Task线程"
+  },
+  "/K2CvV": {
+    "message": "Template",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "模板名称"
+  },
+  "hKvdeF": {
+    "message": "Template (JSON)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "模板内容（JSON）"
+  },
+  "QHhZeE": {
+    "message": "Template created successfully",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "模板创建成功"
+  },
+  "ZTgE3k": {
+    "message": "Template deleted",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "模板已删除"
+  },
+  "U1Im+N": {
+    "message": "Template Name",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "模板名称"
+  },
+  "iTylMl": {
+    "message": "Templates",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/App.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ]
+    ],
+    "translation": "模板"
+  },
+  "bAYZ7B": {
+    "message": "Term Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Term查询"
+  },
+  "kfubA2": {
+    "message": "Terminate",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "终止"
+  },
+  "n+Ii4O": {
+    "message": "Terms Aggregation",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Terms Aggregation"
+  },
+  "Nb7Z2i": {
+    "message": "Terms Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Terms查询"
+  },
+  "9X5NMq": {
+    "message": "Test analyzer tokenization (_analyze)",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "测试分析器分词效果（_analyze）"
+  },
+  "s7uMvM": {
+    "message": "Test Connection",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "连接测试"
+  },
+  "xeiujy": {
+    "message": "Text",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "文本"
+  },
+  "AHXZJq": {
+    "message": "The first CSV row is the header (field names), each following row is a document. Double quotes are supported.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ]
+    ],
+    "translation": "CSV 第一行为字段名表头，之后每行是一条文档，支持双引号转义"
+  },
+  "FEr96N": {
+    "message": "Theme",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "主题"
+  },
+  "Pep+iA": {
+    "message": "Thread Pools",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "线程池"
+  },
+  "gMZL/Y": {
+    "message": "Time in Queue",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Diag.tsx"
+      ]
+    ],
+    "translation": "排队时间"
+  },
+  "TP9/K5": {
+    "message": "Token",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "分词结果"
+  },
+  "pBYhJU": {
+    "message": "Total Cache",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "缓存总大小"
+  },
+  "JoKxMw": {
+    "message": "Total Disk",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "总空间"
+  },
+  "iWZLw0": {
+    "message": "Total Docs",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "总文档数"
+  },
+  "YNw9SA": {
+    "message": "Total Segments",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "段总数"
+  },
+  "BWkpRk": {
+    "message": "Total Shards",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "总分片"
+  },
+  "+zy2Nq": {
+    "message": "Type",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "类型"
+  },
+  "vmiKsn": {
+    "message": "Updated {count} existing connections, nothing added",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "已更新 {count} 个同名连接，没有新增"
+  },
+  "TjrbDj": {
+    "message": "Uptime",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Nodes.tsx"
+      ],
+      [
+        "src/components/Nodes.tsx"
+      ]
+    ],
+    "translation": "运行时间"
+  },
+  "Xg3aVa": {
+    "message": "Use SSL",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "使用 SSL"
+  },
+  "2Poq0i": {
+    "message": "Use the analyzer of a field in the index; overrides analyzer",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Analyze.tsx"
+      ]
+    ],
+    "translation": "使用索引中某字段的分词器，填写则忽略分析器"
+  },
+  "7sNhEz": {
+    "message": "Username",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "用户名"
+  },
+  "wMHvYH": {
+    "message": "Value",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Core.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "值"
+  },
+  "SImomz": {
+    "message": "Verification code (QQ group number), please check on GitHub",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "测试码，也就是QQ群号，请在github上查看"
+  },
+  "1mLIrL": {
+    "message": "Verification failed: {msg}",
+    "placeholders": {
+      "msg": [
+        "msg"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "验证失败：{msg}"
+  },
+  "uSMfoN": {
+    "message": "Verify",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "验证"
+  },
+  "4mNlzL": {
+    "message": "View 10 Docs",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "查看10条文档"
+  },
+  "SZw9tS": {
+    "message": "View Details",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "查看索引构成"
+  },
+  "r6y+jM": {
+    "message": "Warning",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Docs.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Index.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Snapshot.tsx"
+      ],
+      [
+        "src/components/Templates.tsx"
+      ],
+      [
+        "src/utils/feedback.tsx"
+      ]
+    ],
+    "translation": "警告"
+  },
+  "hLuILq": {
+    "message": "Warning: Restoring will create indices in the cluster. If an index with the same name already exists and is not closed, the restore will fail. Use rename pattern to avoid conflicts.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Snapshot.tsx"
+      ]
+    ],
+    "translation": "警告：恢复操作会在集群中创建索引，如果同名索引已存在且未关闭，恢复将失败。建议使用重命名功能避免冲突。"
+  },
+  "otkG4y": {
+    "message": "Whether the request timed out",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Health.tsx"
+      ]
+    ],
+    "translation": "请求是否超时"
+  },
+  "mmISLa": {
+    "message": "Wildcard Query",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Rest.tsx"
+      ]
+    ],
+    "translation": "Wildcard查询"
+  },
+  "Hl91fC": {
+    "message": "Window Height",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "窗口高度"
+  },
+  "FuBCuA": {
+    "message": "Window Width",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "窗口宽度"
+  },
+  "w6aOJG": {
+    "message": "Without passwords",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Conn.tsx"
+      ]
+    ],
+    "translation": "不包含密码"
+  },
+  "l75CjT": {
+    "message": "Yes",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Task.tsx"
+      ]
+    ],
+    "translation": "是"
+  },
+  "eRKkfv": {
+    "message": "You can only add new fields or change dynamic parameters. Changing types of existing fields will be rejected by ES.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "只能新增字段或修改动态参数，不能修改已有字段的类型，否则 ES 会报错"
+  },
+  "yT1MvX": {
+    "message": "You selected {count} rows.",
+    "placeholders": {
+      "count": [
+        "count"
+      ]
+    },
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Index.tsx"
+      ]
+    ],
+    "translation": "你选中了 {count} 行。"
+  },
+  "AYhVtE": {
+    "message": "中文",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/components/Settings.tsx"
+      ]
+    ],
+    "translation": "中文"
+  }
+}
