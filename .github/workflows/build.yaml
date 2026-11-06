@@ -4,6 +4,9 @@ on:
   release:
     types: [ created ]
 
+permissions:
+  contents: write
+
 env:
   NODE_OPTIONS: "--max-old-space-size=4096"
   APP_NAME: 'ES-Board'
